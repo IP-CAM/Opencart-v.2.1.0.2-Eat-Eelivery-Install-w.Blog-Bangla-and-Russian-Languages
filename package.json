@@ -1,0 +1,23 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "Русский язык для Opencart 2x Русская сборка   http://opencart-russia.ru",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Padavan94/opencard_eat-delivery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Padavan94/opencard_eat-delivery/issues"
+  },
+  "homepage": "https://github.com/Padavan94/opencard_eat-delivery#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.1"
+  }
+}
