@@ -697,7 +697,8 @@ a {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 415px; }
+    max-width: 350px;
+    width: 350px; }
     .food-menu__content__description h4 {
       text-transform: uppercase;
       color: #333; }
