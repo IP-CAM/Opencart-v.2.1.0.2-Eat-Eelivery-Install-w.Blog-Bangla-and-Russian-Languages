@@ -24,16 +24,7 @@ function getURLVar(key) {
 
 $(document).ready(function() {
 
-	/*$.ajax({
-		url: 'index.php?route=checkout/cart/remove',
-		type: 'post',
-		data: 'key=' + key,
-		dataType: 'json',
-		success: function(json) {
-			
-		},
-       
-	});*/
+	
 
 
 
@@ -315,6 +306,7 @@ var checkout = {
             //dataType: 'html',
             dataType: 'html',
             success: function(html) {
+
             	$.magnificPopup.open({
 				  items: {
 				    src: '#chekout__form'
@@ -322,6 +314,7 @@ var checkout = {
 				  callbacks: {
 				  	 beforeOpen: function() {
 					    $('#chekout__form').html(html);
+					    
 					    $('.cart-form--your-choose').removeClass('active')
 					  },
 				  },
