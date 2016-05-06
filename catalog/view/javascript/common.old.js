@@ -23,6 +23,23 @@ function getURLVar(key) {
 }
 
 $(document).ready(function() {
+
+	/*$.ajax({
+		url: 'index.php?route=checkout/cart/remove',
+		type: 'post',
+		data: 'key=' + key,
+		dataType: 'json',
+		success: function(json) {
+			
+		},
+       
+	});*/
+
+
+
+
+
+
 	// Highlight any found errors
 	$('.text-danger').each(function() {
 		var element = $(this).parent().parent();
@@ -161,6 +178,7 @@ var cart = {
                         //} else
                             $('.cart > a').html('<img src="/image/pictures/cart.png" alt="cart"><div class="totprod">'+json['total']+'</div>');
                             $('.num').html(""+json['total']);
+
                         //}
 					}, 100);
 
@@ -297,7 +315,19 @@ var checkout = {
             //dataType: 'html',
             dataType: 'html',
             success: function(html) {
-                $('#chekout__form').html(html);
+            	$.magnificPopup.open({
+				  items: {
+				    src: '#chekout__form'
+				  },
+				  callbacks: {
+				  	 beforeOpen: function() {
+					    $('#chekout__form').html(html);
+					    $('.cart-form--your-choose').removeClass('active')
+					  },
+				  },
+				  type: 'inline'
+				});
+                
             },
             error: function(xhr, ajaxOptions, thrownError) {
                 alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);

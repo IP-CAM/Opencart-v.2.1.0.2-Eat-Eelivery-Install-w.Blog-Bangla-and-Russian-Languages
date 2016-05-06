@@ -755,7 +755,7 @@ a {
       opacity: 1; }
     .food-menu__content__add-to-cart .number input {
       border: none !important;
-      width: 16px !important;
+      width: 27px !important;
       font-style: normal;
       height: 28px !important;
       font-size: 18px !important;
@@ -928,6 +928,12 @@ a {
       .footer__contacts__socials-link.tw {
         background-position: center -114px; }
 
+#chekout__form {
+  display: block;
+  max-width: 700px;
+  position: relative;
+  margin: 0px auto; }
+
 .cart-form {
   background-color: #fce4ad;
   position: relative;
@@ -1007,7 +1013,8 @@ a {
   .cart-form--ty {
     max-width: 381px; }
   .cart-form--order-detail {
-    max-width: 700px; }
+    max-width: 700px;
+    position: relative; }
   .cart-form__ty-message {
     font-size: 14px;
     font-style: italic;
