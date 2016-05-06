@@ -697,7 +697,8 @@ a {
     padding-left: 20px;
     display: flex;
     flex-direction: column;
-    max-width: 415px; }
+    max-width: 350px;
+    width: 350px; }
     .food-menu__content__description h4 {
       text-transform: uppercase;
       color: #333; }
@@ -1243,8 +1244,8 @@ a {
   justify-content: space-between;
   margin-bottom: 50px; }
   .new-recipes__box__img {
-    width: 300px;
-    max-width: 275px;
+    width: 175px;
+    min-width: 175px;
     height: auto; }
     .new-recipes__box__img img {
       width: 100%;
@@ -1252,7 +1253,8 @@ a {
   .new-recipes__box__description {
     padding: 0px 15px;
     font-size: 14px;
-    color: #252525; }
+    color: #252525;
+    width: 100%; }
     .new-recipes__box__description h5 {
       font-family: "Helvetica-r";
       margin-bottom: 15px; }

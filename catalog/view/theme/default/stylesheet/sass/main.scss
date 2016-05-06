@@ -792,7 +792,8 @@
 			padding-left: 20px;
 			display: flex;
 			flex-direction: column;
-			max-width: 415px;
+			max-width: 350px;
+			width: 350px;
 			h4{
 				text-transform: uppercase;
 				color: #333;
@@ -1456,8 +1457,8 @@
 		justify-content: space-between;
 		margin-bottom: 50px;
 		&__img{
-			width: 300px;
-			max-width: 275px;
+			width: 175px;
+			min-width: 175px;
 			height: auto;
 			img{
 				width: 100%;
@@ -1468,6 +1469,7 @@
 			padding: 0px 15px;
 			font-size: 14px;
 			color: #252525;
+			width: 100%;
 			h5{
 				font-family: "Helvetica-r";
 				margin-bottom: 15px;
