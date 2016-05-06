@@ -225,8 +225,10 @@ class ControllerBlogCategory extends Controller {
 			$filter_data = array(
 				'filter_category_id' => $category_id,
 				'filter_filter'      => $filter,
-				'sort' => $sort,	
-				'order' => $order,
+                'sort' => 'p.date_modified',
+				//'sort' => $sort,
+                'order' => 'DESC',
+				//'order' => $order,
 				'start' => ($page - 1) * $limit,
 				'limit' => $limit
 			);
@@ -240,9 +242,11 @@ class ControllerBlogCategory extends Controller {
 
 			foreach ($results as $post) {
 				if (!empty($post['post_thumb']) && is_file(DIR_IMAGE . $post['post_thumb'])) {
-					$post_thumb = $this->model_tool_image->resize($post['post_thumb'], $thumb_width, $thumb_height);
+					//$post_thumb = $this->model_tool_image->resize($post['post_thumb'], $thumb_width, $thumb_height);
+                    $post_thumb = $this->model_tool_image->resize($post['post_thumb'], 200, 150);
 				} else {
-					$post_thumb = $this->model_tool_image->resize('no_image.png', $thumb_width, $thumb_height);
+					//$post_thumb = $this->model_tool_image->resize('no_image.png', $thumb_width, $thumb_height);
+                    $post_thumb = $this->model_tool_image->resize('no_image.png', 200, 150);
 				}
 
 				$images = array();
@@ -264,13 +268,14 @@ class ControllerBlogCategory extends Controller {
 		        $data['posts'][] = array(
 		        	'ID' 			=> $post['ID'],
 		        	'date_added' 	=> $post['date_added'],
+                    "date_modified" => $post["date_modified"],
 		        	'title' 		=> $post['title'],
 		        	'post_author' 	=> $post['post_author'],
 		        	'comment_count' => $post['comment_count'],
 		        	'view' 			=> $post['view'],
 		        	'post_thumbnail'=> $post_thumb,
 		        	'image' 		=> $images,
-		        	'content' 		=> words_limit(html_entity_decode($post['content']),$blog_config['word_limit_in_post'],'...'),
+		        	'content' 		=> words_limit(html_entity_decode($post['content']),35,'...'),
 		        	'tag' 			=> $post['tag']
 		        );	
 

@@ -13,8 +13,8 @@
 					<div class="why-we__container">
 						<div class="why-we__box">
 							<div class="why-we__box__description">
-								<h4 class="why-we__box__title">ВСЕГДА СВЕЖИЕ БЛЮДА</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut doloremque laudantium, totam rem apem.</p>
+								<h4 class="why-we__box__title">Высокое качество блюд</h4>
+								<p>Наши повара обладают высокой профессиональной квалификацией и готовят как обеды, так и блюда для протокольных и праздничных мероприятий. Продукты, которые используются при приготовлении блюд, мы заказываем исключительно у постоянных поставщиков.</p>
 							</div>
 							<div class="why-we__box__img">
 								<img src="/image/pictures/why-we1.png" alt="why-we1">
@@ -22,17 +22,17 @@
 						</div>
 						<div class="why-we__box">
 							<div class="why-we__box__description">
-								<h4 class="why-we__box__title">НАТУРАЛЬНЫЕ ИНГРИДИЕНТЫ</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut doloremque laudantium, totam rem apem.</p>
+								<h4 class="why-we__box__title">Сбалансированный и разнообразный ассортимент</h4>
+								<p>Еженедельно мы обновляем наш ассортимент. В нашем меню вы сможете найти комплексные обеды, салаты, выпечку. Мы любим наших клиентов, поэтому с удовольствием радуем их нашими новинками!</p>
 							</div>
 							<div class="why-we__box__img">
-								<img src="/image/pictures/why-we2.png" alt="why-we1">
+								<img src="/image/pictures/why-we7.png" alt="why-we1">
 							</div>
 						</div>
 						<div class="why-we__box">
 							<div class="why-we__box__description">
-								<h4 class="why-we__box__title">ОПЫТ И ПРОФЕССИОНАЛИЗМ</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut doloremque laudantium, totam rem apem.</p>
+								<h4 class="why-we__box__title">Высокий уровень обслуживания.</h4>
+								<p>Все блюда герметично упакованы при помощи профессионального оборудования в сертифицированные индивидуальные ланч-боксы. Мы обеспечиваем своевременную доставку обедов в любой район города Днепропетровска.</p>
 							</div>
 							<div class="why-we__box__img">
 								<img src="/image/pictures/why-we3.png" alt="why-we1">
@@ -40,14 +40,14 @@
 						</div>
 						<div class="why-we__box">
 							<div class="why-we__box__description">
-								<h4 class="why-we__box__title">БЕСПЛАТНАЯ ДОСТАВКА</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut doloremque laudantium, totam rem apem.</p>
+								<h4 class="why-we__box__title">Широкий спектр услуг.</h4>
+								<p>Организация банкетов и других мероприятий, а также обеспечение работы буфетов и столовых на предприятиях и в офисных центрах клиентов.</p>
 							</div>
 							<div class="why-we__box__img">
 								<img src="/image/pictures/why-we4.png" alt="why-we1">
 							</div>
 						</div>
-						<div class="why-we__box">
+						<!--<div class="why-we__box">
 							<div class="why-we__box__description">
 								<h4 class="why-we__box__title">ПОСТОЯННОЕ ОБНОВЛЕНИЕ МЕНЮ</h4>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut doloremque laudantium, totam rem apem.</p>
@@ -71,7 +71,7 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut doloremque laudantium, totam rem apem.</p>
 							</div>
 							<div class="why-we__box__img">
-								<img src="/image/pictures/why-we7.png" alt="why-we1">
+								<img src="/image/pictures/why-we2.png" alt="why-we1">
 							</div>
 						</div>
 						<div class="why-we__box">
@@ -82,77 +82,15 @@
 							<div class="why-we__box__img">
 								<img src="/image/pictures/why-we8.png" alt="why-we1">
 							</div>
-						</div>
+						</div>-->
 					</div>
 					<div class="why-we__show-more">
-						<a href="#" >ПЕРЕЙТИ К МЕНЮ</a>
+						<a href="/index.php?route=product/category&path=65_73" >ПЕРЕЙТИ К МЕНЮ</a>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="new-recipes">
-			<div class="container con-mod">
-				<div class="new-recipes__inner">
-					<div class="new-recipes__title title">
-						<h2>НОВЫЕ РЕЦЕПТЫ</h2>
-					</div>
-					<div class="new-recipes__container">
-						<div class="new-recipes__box">
-							<div class="new-recipes__box__img">
-								<img src="/image/pictures/fruit-cart.png" alt="fruit">
-							</div>
-							<div class="new-recipes__box__description">
-								<h5>Lorem ipsum dolor sit amet</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nvoluptas sit aspernatur aut odit aut fugit, sed quia consequun</p>
-								<div class="new-recipes__box__info">
-									<div class="new-recipes__box__data">03.01.2016</div>
-									<a href="#" class="new-recipes__box__read">Читать</a>
-								</div>
-							</div>
-						</div>
-						<div class="new-recipes__box">
-							<div class="new-recipes__box__img">
-								<img src="/image/pictures/fruit-cart.png" alt="fruit">
-							</div>
-							<div class="new-recipes__box__description">
-								<h5>Lorem ipsum dolor sit amet</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nvoluptas sit aspernatur aut odit aut fugit, sed quia consequun</p>
-								<div class="new-recipes__box__info">
-									<div class="new-recipes__box__data">03.01.2016</div>
-									<a href="#" class="new-recipes__box__read">Читать</a>
-								</div>
-							</div>
-						</div>
-						<div class="new-recipes__box">
-							<div class="new-recipes__box__img">
-								<img src="/image/pictures/fruit-cart.png" alt="fruit">
-							</div>
-							<div class="new-recipes__box__description">
-								<h5>Lorem ipsum dolor sit amet</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nvoluptas sit aspernatur aut odit aut fugit, sed quia consequun</p>
-								<div class="new-recipes__box__info">
-									<div class="new-recipes__box__data">03.01.2016</div>
-									<a href="#" class="new-recipes__box__read">Читать</a>
-								</div>
-							</div>
-						</div>
-						<div class="new-recipes__box">
-							<div class="new-recipes__box__img">
-								<img src="/image/pictures/fruit-cart.png" alt="fruit">
-							</div>
-							<div class="new-recipes__box__description">
-								<h5>Lorem ipsum dolor sit amet</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nvoluptas sit aspernatur aut odit aut fugit, sed quia consequun</p>
-								<div class="new-recipes__box__info">
-									<div class="new-recipes__box__data">03.01.2016</div>
-									<a href="#" class="new-recipes__box__read">Читать</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		
 				<!--<div class="food-menu__nav">-->
                 <?php //foreach ($categories as $category) { ?>
                   

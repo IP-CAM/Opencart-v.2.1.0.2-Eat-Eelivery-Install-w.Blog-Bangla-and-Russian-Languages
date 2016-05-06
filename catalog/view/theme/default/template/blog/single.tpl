@@ -236,6 +236,49 @@
             <?php echo $content_bottom; ?>
         </div>
     </div>
+</div>
+<div class="recipe">
+			<div class="container con-mod">
+				<div class="recipe__inner">
+					<div class="recipe__title title">
+						<h2>РЕЦЕПТ №1</h2>
+					</div>
+					<div class="recipe__container">
+						<div class="recipe__box">
+							<div class="recipe__box__image">
+								<img src="/img/eat.jpg" alt="eat">
+							</div>
+							<div class="recipe__box__ingridients">
+								<h5>Ингредиенты для "Рогалики":</h5>
+								<ul>
+									<li><span>Творог</span> - 250 г</li>
+									<li><span>Масло сливочное</span> - 250 г</li>
+									<li><span>Мука</span> - 2,5 стак.</li>
+									<li><span>Повидло</span> - по вкусу</li>
+								</ul>
+							</div>
+						</div>
+						<div class="recipe__formula">
+							<ol>
+								<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+								<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </li>
+								<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+								<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </li>
+								<li>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </li>
+								<li>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</li>
+							</ol>
+						</div>
+						<!--<div class="recipe__socials">
+							<div class="recipe__socials__descr">Поделитсья</div>
+							<a href="#" class="recipe__socials__link fb"></a>
+							<a href="#" class="recipe__socials__link tw"></a>
+							<a href="#" class="recipe__socials__link inst"></a>
+							<a href="#" class="recipe__socials__link vk"></a>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
 
 <script type="text/javascript"><!--
 $(document).ready(function() {

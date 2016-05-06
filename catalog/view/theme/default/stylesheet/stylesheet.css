@@ -772,3 +772,7 @@ h2.price {
 /*.cart-form--your-choose.active{
     top: 460px !important;
 }*/
+
+.why-we__box__description p {
+    font-size: 16px;
+}

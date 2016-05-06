@@ -79,7 +79,7 @@ class ModelBlogPost extends Model {
 
 	public function getPost($where=array()) {			
 
-		$sql = "SELECT DISTINCT *, pd.title, p.post_thumb";
+        $sql = "SELECT DISTINCT *, pd.title, p.post_thumb";
 		$sql .= " FROM " . DB_PREFIX . "blog_post p ";
 		$sql .= " LEFT JOIN " . DB_PREFIX . "blog_post_description pd ON (p.ID = pd.post_id)";
 		$sql .= " LEFT JOIN " . DB_PREFIX . "blog_post_to_store p2s ON (p.ID = p2s.post_id)";
@@ -100,9 +100,11 @@ class ModelBlogPost extends Model {
 			$sql .= "WHERE ";
 			$sql .= " pd.language_id = '" . (int)$this->config->get('config_language_id') . "' AND p.post_status = 'publish' AND p.date_available <= NOW() AND p2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
 		}
-
+        //var_dump($sql);
+        //die();
 		$query = $this->db->query($sql);
-
+        //var_dump($query);
+        //die();
 		if ($query->num_rows) {
 			$post = $query->row;
 			$postmeta = $this->postmeta(array("post_id"=>"='".$post['ID']."'"));
@@ -251,7 +253,7 @@ class ModelBlogPost extends Model {
 		foreach ($query->rows as $result) {
 			$post_data[] = $this->getPost(array("p.ID" => "='".$result['ID']."'"));
 		}
-
+        //var_dump($post_data);
 		return $post_data;
 	}
 

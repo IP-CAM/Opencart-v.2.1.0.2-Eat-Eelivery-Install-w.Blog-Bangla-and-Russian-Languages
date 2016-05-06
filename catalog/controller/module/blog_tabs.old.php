@@ -26,8 +26,7 @@ class ControllerModuleBlogTabs extends Controller {
 			'sort' => 'p.date_modified',
 			'order' => 'DESC',
 			'start' => 0,
-			//'limit' => $settings['limit_recent'],
-            'limit' => 4  
+			'limit' => $settings['limit_recent']
 		);
 
 		$filter_data_popular = array(
@@ -50,11 +49,9 @@ class ControllerModuleBlogTabs extends Controller {
 
 		foreach ($data['recent_posts'] as $key => $post) {
 			if (!empty($post['post_thumb']) && is_file(DIR_IMAGE . $post['post_thumb'])) {
-				//$data['thumbnail_recent'][] = $this->model_tool_image->resize($post['post_thumb'], $thumb_width_recent, $thumb_height_recent);
-                $data['thumbnail_recent'][] = $this->model_tool_image->resize($post['post_thumb'], 200, 150);
+				$data['thumbnail_recent'][] = $this->model_tool_image->resize($post['post_thumb'], $thumb_width_recent, $thumb_height_recent);
 			} else {
-				$data['thumbnail_recent'][] = $this->model_tool_image->resize('no_image.png', 200, 150);
-                //$data['thumbnail_recent'][] = $this->model_tool_image->resize('no_image.png', $thumb_width_recent, $thumb_height_recent);
+				$data['thumbnail_recent'][] = $this->model_tool_image->resize('no_image.png', $thumb_width_recent, $thumb_height_recent);
 			}
 
 			if($settings['thumbnail_type_recent'] == 'slide') {
@@ -118,7 +115,6 @@ class ControllerModuleBlogTabs extends Controller {
 			$data['child_id'] = 0;
 		}
 		
-        //var_dump($data);
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/module/blog_tabs.tpl')) {
 			return $this->load->view($this->config->get('config_template') . '/template/module/blog_tabs.tpl', $data);
 		} else {

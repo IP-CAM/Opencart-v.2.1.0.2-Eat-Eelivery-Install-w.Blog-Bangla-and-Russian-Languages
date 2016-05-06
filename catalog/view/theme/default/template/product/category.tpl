@@ -134,7 +134,7 @@
                                     <div class="food-menu__total__price num">0</div>
                                 </div>
                                 <div class="food-menu__total__delivery-price">
-                                    <a class="header-wrapper__nav__link" href="#">Оформить заказ</a>
+                                    <a class="header-wrapper__nav__link open" onclick="checkout.view();" href="javascript:void">Оформить заказ</a>
                                 </div>
                                 
                             </div>
