@@ -1033,7 +1033,7 @@ a {
     max-height: 444px;
     overflow-y: auto;
     overflow-x: hidden;
-    padding-left: 21px; }
+    padding: 6px; }
   .cart-form__delete {
     width: 20px;
     height: 20px;
@@ -1059,6 +1059,19 @@ a {
     padding: 6px;
     position: relative;
     display: flex; }
+    .cart-form__eat-box__total {
+      text-align: right; }
+      .cart-form__eat-box__total span {
+        display: inline-block;
+        padding: 7px 12px;
+        border: 1px solid #658123;
+        color: #2f2f2f;
+        font-style: italic;
+        background-color: #fef2d6;
+        font-size: 17px;
+        font-family: "cocon-regular"; }
+      .cart-form__eat-box__total strong {
+        color: #658123; }
     .cart-form__eat-box__img {
       width: 131px;
       height: 131px;

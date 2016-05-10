@@ -904,7 +904,6 @@
 			z-index: 99;
 			transition: all .7s ease;
 			bottom: 0;
-
 		}
 		&__price{
 			font-size: 24px;
@@ -1217,7 +1216,7 @@
 		max-height: 444px;
 		overflow-y: auto;
 		overflow-x: hidden;
-		padding-left: 21px;
+		padding: 6px;
 	}
 	&__delete{
 		width: 20px;
@@ -1247,8 +1246,22 @@
 		position: relative;
 		display: flex;
 		&__total{
-			
+			text-align: right;
+			span{
+				display: inline-block;
+				padding: 7px 12px;
+				border: 1px solid rgb(101, 129, 35);
+				color: rgb(47, 47, 47);
+				font-style: italic;
+				background-color: #fef2d6;
+				font-size: 17px;
+				font-family: "cocon-regular";
+			}
+			strong{
+				color: #658123;
+			}
 		}
+		
 		&__img{
 			width: 131px;
 			height: 131px;
