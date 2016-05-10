@@ -44,7 +44,7 @@
     <?php //echo $checkout_page; ?>
     </div>
     
-    <div  id="preloader" style="display: none;">
+    <div  id="preloader">
 	    <div class="preloader-container">
 	       <img src="/image/pictures/pizza.gif">
 	    </div>

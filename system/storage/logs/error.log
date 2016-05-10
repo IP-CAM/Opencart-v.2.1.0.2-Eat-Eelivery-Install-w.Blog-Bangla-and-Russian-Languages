@@ -1015,6 +1015,106 @@
 2016-05-05 14:07:06 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-05 14:07:11 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-05 14:07:11 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
+<<<<<<< HEAD
+2016-05-05 14:45:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 14:45:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 14:46:19 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 14:46:19 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:04:22 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:04:22 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:05:27 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:05:27 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:24:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:24:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:29:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:29:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:35:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:35:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:52:53 - PHP Notice:  Error: Could not load template C:/OpenServer/domains/obed2.com.ua/catalog/view/theme/default/template/module/blog_category.tpl! in C:\OpenServer\domains\obed2.com.ua\system\engine\loader.php on line 86
+2016-05-05 15:54:23 - PHP Notice:  Error: Could not load template C:/OpenServer/domains/obed2.com.ua/catalog/view/theme/default/template/module/blog_category.tpl! in C:\OpenServer\domains\obed2.com.ua\system\engine\loader.php on line 86
+2016-05-05 15:56:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 15:56:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:02:07 - PHP Notice:  Undefined variable: tag_layout in C:\OpenServer\domains\obed2.com.ua\admin\view\template\module\blog_tag.tpl on line 70
+2016-05-05 16:02:22 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:02:22 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:02:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:02:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:14:24 - PHP Notice:  Undefined variable: text_blog in C:\OpenServer\domains\obed2.com.ua\admin\view\template\common\menu.tpl on line 20
+2016-05-05 16:14:31 - PHP Notice:  Undefined variable: text_blog in C:\OpenServer\domains\obed2.com.ua\admin\view\template\common\menu.tpl on line 20
+2016-05-05 16:19:02 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:19:02 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:21:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:21:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:22:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:22:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:24:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:24:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:25:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:25:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:30:12 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:30:12 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:30:23 - PHP Notice:  Undefined variable: class in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\error\not_found_blog.tpl on line 17
+2016-05-05 16:32:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:32:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:38:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:38:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:46:53 - PHP Notice:  Undefined index: pid in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_comment.tpl on line 174
+2016-05-05 16:46:53 - PHP Notice:  Undefined index: pid in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_comment.tpl on line 210
+2016-05-05 16:46:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:46:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:47:52 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:47:52 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:48:44 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:48:44 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:49:05 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:49:05 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:50:10 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 16:50:10 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:30:25 - PHP Notice:  Undefined index: recent_posts in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 50
+2016-05-05 17:30:25 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 50
+2016-05-05 17:30:25 - PHP Notice:  Undefined variable: recent_posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 17
+2016-05-05 17:30:25 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 74
+2016-05-05 17:30:25 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 74
+2016-05-05 17:30:25 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:30:25 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:30:47 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:30:47 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:32:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:32:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:33:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:33:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:34:16 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:34:16 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:34:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:34:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:36:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:36:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:36:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:36:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:37:17 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:37:17 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:38:01 - PHP Notice:  Undefined index: popular_posts in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 75
+2016-05-05 17:38:01 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 75
+2016-05-05 17:38:01 - PHP Notice:  Undefined variable: popular_posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 64
+2016-05-05 17:38:01 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:38:01 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:38:43 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 76
+2016-05-05 17:38:43 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 68
+2016-05-05 17:38:43 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:38:43 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:42:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:42:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:44:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:44:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:45:19 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 17:45:19 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 18:01:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 18:01:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 18:06:07 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-05 18:06:07 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 9:05:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 9:05:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+=======
 2016-05-05 14:53:30 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-05 14:53:30 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-05 14:56:23 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
@@ -1120,6 +1220,178 @@
 2016-05-05 16:59:50 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-05 16:59:52 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-05 16:59:52 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
+<<<<<<< HEAD
+>>>>>>> 453e3ecd6ce58afc37bd3396e973907c6d7922b1
+2016-05-06 9:34:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 9:34:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:23:36 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:23:36 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:27:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:27:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:31:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:31:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:32:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:32:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:51:41 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:51:41 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:51:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:51:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:52:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:52:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:58:02 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:58:02 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:59:40 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 10:59:40 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:03:12 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:03:12 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:07:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:07:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:09:55 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:09:55 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:11:55 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:11:55 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:13:47 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:13:47 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:35:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:35:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:38:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:38:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:40:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:40:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:44:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:44:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:45:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:45:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:56:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:56:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 163
+2016-05-06 11:57:11 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 11:57:11 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:05:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:05:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:19:21 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:19:21 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:22:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:22:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:35:25 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:35:25 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:35:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:35:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:36:21 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:36:21 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:37:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:37:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:37:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:37:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:39:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:39:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:58:44 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 12:58:44 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:11:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:11:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:13:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:13:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:13:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:13:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:14:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:14:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:16:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:16:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:18:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:18:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:19:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:19:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:27:39 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:27:39 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:33:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:33:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:38:51 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:38:51 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:41:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:41:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:46:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:46:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:50:26 - PHP Warning:  preg_replace(): No ending delimiter '-' found in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 150
+2016-05-06 13:50:26 - PHP Warning:  preg_replace(): No ending delimiter '-' found in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 150
+2016-05-06 13:50:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:50:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:50:52 - PHP Warning:  preg_replace(): No ending delimiter '-' found in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 150
+2016-05-06 13:50:52 - PHP Warning:  preg_replace(): No ending delimiter '-' found in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 150
+2016-05-06 13:50:52 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:50:52 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:51:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:51:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:52:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:52:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:53:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:53:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:56:20 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 13:56:20 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:00:27 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:00:27 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:04:29 - PHP Notice:  Undefined variable: recent_posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 203
+2016-05-06 14:04:29 - PHP Notice:  Undefined variable: not_found_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 238
+2016-05-06 14:07:20 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:07:20 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:07:35 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:07:35 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:10:17 - PHP Notice:  Undefined variable: post_thumbnail in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 13
+2016-05-06 14:10:17 - PHP Notice:  Undefined variable: post_thumbnail in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 13
+2016-05-06 14:10:17 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:10:17 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:10:51 - PHP Notice:  Undefined index: post_thumbnail in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 13
+2016-05-06 14:10:51 - PHP Notice:  Undefined index: post_thumbnail in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\module\blog_tabs.tpl on line 13
+2016-05-06 14:10:51 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:10:51 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:11:05 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:11:05 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:18:20 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:18:20 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:18:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:18:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:20:57 - PHP Notice:  Undefined variable: recent_posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 173
+2016-05-06 14:20:57 - PHP Notice:  Undefined variable: not_found_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 208
+2016-05-06 14:22:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:22:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:23:31 - PHP Notice:  Undefined variable: recent_posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 177
+2016-05-06 14:23:31 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 177
+2016-05-06 14:23:31 - PHP Notice:  Undefined variable: not_found_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 208
+2016-05-06 14:24:23 - PHP Notice:  Use of undefined constant posts - assumed 'posts' in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 173
+2016-05-06 14:24:23 - PHP Notice:  Use of undefined constant posts - assumed 'posts' in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 177
+2016-05-06 14:24:23 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 177
+2016-05-06 14:29:30 - PHP Notice:  Use of undefined constant posts - assumed 'posts' in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 173
+2016-05-06 14:29:30 - PHP Notice:  Use of undefined constant posts - assumed 'posts' in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 177
+2016-05-06 14:29:30 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 177
+2016-05-06 14:31:13 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 181
+2016-05-06 14:31:13 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 190
+2016-05-06 14:31:13 - PHP Notice:  Undefined index: date_modified in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 196
+2016-05-06 14:31:13 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 181
+2016-05-06 14:31:13 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 190
+2016-05-06 14:31:13 - PHP Notice:  Undefined index: date_modified in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 196
+2016-05-06 14:34:19 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 181
+2016-05-06 14:34:19 - PHP Notice:  Undefined index: date_modified in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 196
+2016-05-06 14:34:19 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 181
+2016-05-06 14:34:19 - PHP Notice:  Undefined index: date_modified in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 196
+2016-05-06 14:52:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:52:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:54:59 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 185
+2016-05-06 14:54:59 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 185
+2016-05-06 14:55:53 - PHP Notice:  Undefined variable: post_thumbnail in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 185
+2016-05-06 14:55:53 - PHP Notice:  Undefined variable: post_thumbnail in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 185
+2016-05-06 14:58:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 14:58:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 15:09:53 - PHP Notice:  Undefined variable: posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 10
+2016-05-06 15:09:53 - PHP Notice:  Undefined variable: not_found_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\category.tpl on line 52
+2016-05-06 15:10:17 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 15:10:17 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 15:31:42 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 15:31:42 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 16:27:45 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 16:27:45 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 16:52:27 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 16:52:27 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 17:06:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 17:06:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+=======
 2016-05-06 15:19:13 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-06 15:19:13 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-06 15:19:15 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
@@ -1220,6 +1492,7 @@
 2016-05-06 17:07:29 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-06 17:12:45 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-06 17:12:45 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
+<<<<<<< HEAD
 2016-05-10 9:27:06 - PHP Warning:  unlink(T:/home/eat-delivery/www/system/storage/cache/cache.currency.1462544521) [<a href='function.unlink'>function.unlink</a>]: No such file or directory in T:\home\eat-delivery\www\system\library\cache\file.php on line 17
 2016-05-10 9:27:06 - PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at T:\home\eat-delivery\www\index.php:98) in T:\home\eat-delivery\www\system\library\session.php on line 21
 2016-05-10 9:27:06 - PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at T:\home\eat-delivery\www\index.php:98) in T:\home\eat-delivery\www\system\library\session.php on line 21
@@ -1267,3 +1540,33 @@
 2016-05-10 10:08:12 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-10 10:50:19 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
 2016-05-10 10:50:19 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 163
+=======
+>>>>>>> faac69dcae9e1b56bc5976b609e06f56619067fe
+2016-05-06 17:21:41 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 17:21:41 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 17:55:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 17:55:56 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 17:56:19 - PHP Notice:  Undefined variable: class in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\error\not_found_blog.tpl on line 17
+2016-05-06 18:12:11 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:12:11 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:12:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:12:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:12:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:12:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:17:12 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:17:12 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:18:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:18:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:18:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:18:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:19:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:19:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:21:29 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:21:29 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:22:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:22:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:22:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:22:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:22:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-06 18:22:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+>>>>>>> 5f3f0268385f6fba09678a3d869a348a31d169cb

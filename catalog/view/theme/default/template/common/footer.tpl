@@ -19,12 +19,12 @@
 							</div>
 							<div class="footer__contacts__bottom">
 								<ul class="footer__contacts__menu">
-									<li><a href="#">ооо “Обед” Доставка вкусных и полезных обедов в офис для Вас</a></li>
-									<li><a href="#">г. Днепропетровск 3-я улица Строителей, 25, офис 12</a></li>
+									<!--<li><a href="#">ооо “Обед” Доставка вкусных и полезных обедов в офис для Вас</a></li>-->
+									<li><a href="#">г. Днепропетровск<br/>пр. Гагарина 103 а</a></li>
 									<li>
 										<ul>
-											<li><a href="#">(093) 111-11-11</a></li>
-											<li><a href="#">(093) 222-22-22</a></li>
+											<li><a href="#">(067) 568-35-35</a></li>
+											<!--<li><a href="#">(093) 222-22-22</a></li>-->
 										</ul>
 									</li>
 								</ul>
@@ -37,10 +37,10 @@
 								</ul>
 								<ul class="footer__contacts__socials">
 									<div>Мы в социальных сетях:</div>
-									<li><a class="footer__contacts__socials-link vk" href="#"></a></li>
-									<li><a class="footer__contacts__socials-link fb" href="#"></a></li>
-									<li><a class="footer__contacts__socials-link inst" href="#"></a></li>
-									<li><a class="footer__contacts__socials-link tw" href="#"></a></li>
+									<li><a class="footer__contacts__socials-link vk" href="https://vk.com/club111766035"></a></li>
+									<li><a class="footer__contacts__socials-link fb" href="https://www.facebook.com/%D0%9E%D0%B1%D0%B5%D0%B4-%D0%AD%D0%BA%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81-1227776127245857/"></a></li>
+									<li><a class="footer__contacts__socials-link inst" href="https://www.instagram.com/obedexpress/"></a></li>
+									<!--<li><a class="footer__contacts__socials-link tw" href="#"></a></li>-->
 								</ul>
 							</div>
 						</div>
