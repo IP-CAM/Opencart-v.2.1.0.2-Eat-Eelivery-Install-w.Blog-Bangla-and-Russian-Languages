@@ -64,7 +64,7 @@
                         <div>
                             
                               <?php //var_dump($totals); ?>
-                              <div class="cart-form__eat-box__total"><?php echo $totals[0]['title']; ?> <?php echo $totals[0]['text']; ?></div>
+                              <div class="cart-form__eat-box__total"><span>К оплате <strong><?php echo $totals[0]['text']; ?></strong></span></div>
                              
                               
                               

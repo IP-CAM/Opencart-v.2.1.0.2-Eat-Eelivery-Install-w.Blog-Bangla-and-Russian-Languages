@@ -1,25 +1,25 @@
 <div class="cart-form cart-form--order-detail">
-			<div class="cart-form__line-top"></div>
-			<h2 class="cart-form__title">
-				Заказ товара
-			</h2>
-			<div class="cart-form__form-wr">
-				<form action="" class="cart-form__form clearfix">
-					
-                        <div id="collapse-checkout-option"></div>
-                        <div id="collapse-payment-address"></div>
-                        <div id="collapse-shipping-address" style="display: none;"></div>
-                        <div id="collapse-shipping-method"></div>
-                        <div id="collapse-payment-method" style="display: none;"></div>
-                        <div id="collapse-checkout-confirm"></div>
+	<div class="cart-form__line-top"></div>
+	<h2 class="cart-form__title">
+		Заказ товара
+	</h2>
+	<div class="cart-form__form-wr">
+		<form action="" class="cart-form__form clearfix">
+			
+                <div id="collapse-checkout-option"></div>
+                <div id="collapse-payment-address"></div>
+                <div id="collapse-shipping-address" style="display: none;"></div>
+                <div id="collapse-shipping-method"></div>
+                <div id="collapse-payment-method" style="display: none;"></div>
+                <div id="collapse-checkout-confirm"></div>
 
-				</form>
-                <div id="chekout__buttons" class="cart-form__buttons">
-                    
-                </div>
-			</div>
+		</form>
+        <div id="chekout__buttons" class="cart-form__buttons">
+            
+        </div>
+	</div>
 
-		</div>
+</div>
 
 
 

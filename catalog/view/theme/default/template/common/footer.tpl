@@ -91,13 +91,20 @@
 
                 
             </div>
-            
+            <?php if($logged){ ?>
             <div class="popup-form__submit-wrap">
-						<input type="submit" value="Войти" required onclick="account.authentication()">
+						<!--<input type="submit" value="Выйти">-->
+                        <a href="/index.php?route=account/logout">Выйти</a>
+					</div>
+            
+            <?php }else{ ?>
+            <div class="popup-form__submit-wrap">
+						<input type="submit" value="Войти" onclick="account.authentication()">
 					</div>
             <div class="popup-form__submit-wrap">
 				<a class="open-popup" href=".reg-form" onclick="account.register()">Регистрация</a>
 			</div>
+            <?php } ?>
 		</div>
 		<!-- login form  end -->
 		<!-- registr form  start -->
@@ -106,7 +113,7 @@
 			
             </div>
             <div class="popup-form__submit-wrap">
-				<input type="submit" value="Регистрация" onclick="account.register()">
+				<input type="submit" value="Регистрация" onclick="account.reg()">
 			</div>
 			<div class="popup-form__submit-wrap">
 				<a class="open-popup" href=".login-form">Авторизация</a>

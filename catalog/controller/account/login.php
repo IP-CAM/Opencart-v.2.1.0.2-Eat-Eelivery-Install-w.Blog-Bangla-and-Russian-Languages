@@ -44,9 +44,20 @@ class ControllerAccountLogin extends Controller {
 
 		if ($this->customer->isLogged()) {
 //			$this->response->redirect($this->url->link('account/account', '', 'SSL'));
-            $this->response->redirect($this->url->link('common/home', '', 'SSL'));
+//            $this->response->redirect($this->url->link('common/home', '', 'SSL'));
             //return false;
-		}
+            $data = array(
+                'status_user' => 'logged'
+            );
+            
+            if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/logged.tpl')) {
+                $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/logged.tpl', $data));
+            } else {
+                $this->response->setOutput($this->load->view('default/template/account/logged.tpl', $data));
+            }
+
+            
+		} else {
 
 		$this->load->language('account/login');
 
@@ -97,11 +108,29 @@ class ControllerAccountLogin extends Controller {
 			// Added strpos check to pass McAfee PCI compliance test (http://forum.opencart.com/viewtopic.php?f=10&t=12043&p=151494#p151295)
 			if (isset($this->request->post['redirect']) && (strpos($this->request->post['redirect'], $this->config->get('config_url')) !== false || strpos($this->request->post['redirect'], $this->config->get('config_ssl')) !== false)) {
 				$this->response->redirect(str_replace('&amp;', '&', $this->request->post['redirect']));
+                $data = array(
+                    'status_user' => 'login'
+                );
+				//$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+                if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/logged.tpl')) {
+                    $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/logged.tpl', $data));
+                } else {
+                    $this->response->setOutput($this->load->view('default/template/account/logged.tpl', $data));
+                }
                 
 			} else {
-				$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+				//$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+                $data = array(
+                    'status_user' => 'login'
+                );
+				//$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+                if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/logged.tpl')) {
+                    $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/logged.tpl', $data));
+                } else {
+                    $this->response->setOutput($this->load->view('default/template/account/logged.tpl', $data));
+                }
 			}
-		}
+		} else {
 
 //		$data['breadcrumbs'] = array();
 //
@@ -188,6 +217,8 @@ class ControllerAccountLogin extends Controller {
 		} else {
 			$this->response->setOutput($this->load->view('default/template/account/login.tpl', $data));
 		}
+        }
+        }
 	}
 
 	protected function validate() {
