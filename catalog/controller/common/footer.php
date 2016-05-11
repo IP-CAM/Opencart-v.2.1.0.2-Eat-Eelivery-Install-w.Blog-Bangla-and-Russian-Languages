@@ -46,6 +46,13 @@ class ControllerCommonFooter extends Controller {
 		$data['newsletter'] = $this->url->link('account/newsletter', '', 'SSL');
         
         $data['logged'] = $this->customer->isLogged();
+//        $data['st'] = $this->request->get['st'];
+        if (isset($this->request->get['st'])) {
+			$data['st'] = $this->request->get['st'];
+        } else {
+			$data['st'] = false;
+		}
+        
         
         //$data['login_modal'] = $this->load->controller('account/login');
         

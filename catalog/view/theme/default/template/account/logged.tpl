@@ -1,5 +1,5 @@
 <?php //echo $status_user ?>
-<?php if(($status_user=="login")||($status_user=="register")||($status_user=="logout")) { ?>
+<?php if(($status_user=="login")||($status_user=="register")) { ?>
 <script>
 window.location = "/index.php?route=common/home&st=<?php echo $status_user ?>";
 </script>
