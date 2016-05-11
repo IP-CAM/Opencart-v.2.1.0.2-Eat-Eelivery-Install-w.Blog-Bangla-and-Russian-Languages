@@ -251,7 +251,9 @@ class ModelBlogPost extends Model {
 		$query = $this->db->query($sql);
         //var_dump($query);
 		foreach ($query->rows as $result) {
-			$post_data[] = $this->getPost(array("p.ID" => "='".$result['ID']."'"));
+            //if($result['ID'] != $id){
+                $post_data[] = $this->getPost(array("p.ID" => "='".$result['ID']."'"));
+            //}
 		}
         //var_dump($post_data);
 		return $post_data;

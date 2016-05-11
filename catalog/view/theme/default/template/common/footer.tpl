@@ -87,63 +87,30 @@
 	
 		<!-- login form  start -->
 		<div class="popup-form-wrap login-form mfp-hide">
-			<form class="popup-form">
-				<div class="popup-form__header">
-					Войти в личный кабинет
-				</div>
-				<div class="popup-form__body">
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите имя" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите номер телефона" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите адрес" required>
-					</div>
-					<div class="popup-form__submit-wrap">
-						<input type="submit" value="Войти" required>
-					</div>
-					<div class="popup-form__submit-wrap">
-						<a class="open-popup" href=".reg-form">Регистрация</a>
-					</div>
-				
-				</div>
+            <div id="login-form">
 
-			</form>
+                
+            </div>
+            
+            <div class="popup-form__submit-wrap">
+						<input type="submit" value="Войти" required onclick="account.authentication()">
+					</div>
+            <div class="popup-form__submit-wrap">
+				<a class="open-popup" href=".reg-form" onclick="account.register()">Регистрация</a>
+			</div>
 		</div>
 		<!-- login form  end -->
 		<!-- registr form  start -->
 		<div class="popup-form-wrap reg-form mfp-hide">
-			<form class="popup-form">
-				<div class="popup-form__header">
-					Заполните, пожалуйста, регистрационную форму
-				</div>
-				<div class="popup-form__body">
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите имя" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите E-mail" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите номер телефона" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите пароль" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Повторите пароль" required>
-					</div>
-					<div class="popup-form__submit-wrap">
-						<input type="submit" value="Регистрация">
-					</div>
-					<div class="popup-form__submit-wrap">
-						<a class="open-popup" href=".login-form">Авторизация</a>
-					</div>
-				
-				</div>
-			</form>
+            <div id="reg-form">
+			
+            </div>
+            <div class="popup-form__submit-wrap">
+				<input type="submit" value="Регистрация" onclick="account.register()">
+			</div>
+			<div class="popup-form__submit-wrap">
+				<a class="open-popup" href=".login-form">Авторизация</a>
+			</div>
 		</div>
 		<!-- registr form  end -->
 		<!-- registr form  start -->

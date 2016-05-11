@@ -169,6 +169,7 @@ class ControllerCommonHeader extends Controller {
 		$data['search'] = $this->load->controller('common/search');
 		$data['cart'] = $this->load->controller('common/cart');
 		//$data['checkout_page'] = $this->load->controller('common/checkout');
+        //$data['login_modal'] = $this->load->controller('account/login');
 
 		// For page specific css
 		if (isset($this->request->get['route'])) {

@@ -1,11 +1,24 @@
+<?php echo $header; ?>
 <div class="container">
+  <ul class="breadcrumb">
+    <?php foreach ($breadcrumbs as $breadcrumb) { ?>
+    <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
+    <?php } ?>
+  </ul>
   <?php if ($error_warning) { ?>
   <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?></div>
   <?php } ?>
-  <div class="row">
-    <div id="content" class="col-sm-12">
+  <div class="row"><?php echo $column_left; ?>
+    <?php if ($column_left && $column_right) { ?>
+    <?php $class = 'col-sm-6'; ?>
+    <?php } elseif ($column_left || $column_right) { ?>
+    <?php $class = 'col-sm-9'; ?>
+    <?php } else { ?>
+    <?php $class = 'col-sm-12'; ?>
+    <?php } ?>
+    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
-
+      <p><?php echo $text_account_already; ?></p>
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="form-horizontal">
         <fieldset id="account">
           <legend><?php echo $text_your_details; ?></legend>
@@ -38,7 +51,15 @@
               <?php } ?>
             </div>
           </div>
-          
+          <div class="form-group required">
+            <label class="col-sm-2 control-label" for="input-lastname"><?php echo $entry_lastname; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="lastname" value="<?php echo $lastname; ?>" placeholder="<?php echo $entry_lastname; ?>" id="input-lastname" class="form-control" />
+              <?php if ($error_lastname) { ?>
+              <div class="text-danger"><?php echo $error_lastname; ?></div>
+              <?php } ?>
+            </div>
+          </div>
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-email"><?php echo $entry_email; ?></label>
             <div class="col-sm-10">
@@ -57,23 +78,12 @@
               <?php } ?>
             </div>
           </div>
-          <?php if(false){ ?>
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-fax"><?php echo $entry_fax; ?></label>
             <div class="col-sm-10">
               <input type="text" name="fax" value="<?php echo $fax; ?>" placeholder="<?php echo $entry_fax; ?>" id="input-fax" class="form-control" />
             </div>
           </div>
-          <div class="form-group required">
-            <label class="col-sm-2 control-label" for="input-lastname"><?php echo $entry_lastname; ?></label>
-            <div class="col-sm-10">
-              <input type="text" name="lastname" value="<?php echo $lastname; ?>" placeholder="<?php echo $entry_lastname; ?>" id="input-lastname" class="form-control" />
-              <?php if ($error_lastname) { ?>
-              <div class="text-danger"><?php echo $error_lastname; ?></div>
-              <?php } ?>
-            </div>
-          </div>
-          <?php } ?>
           <?php foreach ($custom_fields as $custom_field) { ?>
           <?php if ($custom_field['location'] == 'account') { ?>
           <?php if ($custom_field['type'] == 'select') { ?>
@@ -230,8 +240,12 @@
         </fieldset>
         <fieldset id="address">
           <legend><?php echo $text_your_address; ?></legend>
-          
-          
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-company"><?php echo $entry_company; ?></label>
+            <div class="col-sm-10">
+              <input type="text" name="company" value="<?php echo $company; ?>" placeholder="<?php echo $entry_company; ?>" id="input-company" class="form-control" />
+            </div>
+          </div>
           <div class="form-group required">
             <label class="col-sm-2 control-label" for="input-address-1"><?php echo $entry_address_1; ?></label>
             <div class="col-sm-10">
@@ -239,14 +253,6 @@
               <?php if ($error_address_1) { ?>
               <div class="text-danger"><?php echo $error_address_1; ?></div>
               <?php } ?>
-            </div>
-          </div>
-          
-          <?php  if (false) { ?>
-          <div class="form-group">
-            <label class="col-sm-2 control-label" for="input-company"><?php echo $entry_company; ?></label>
-            <div class="col-sm-10">
-              <input type="text" name="company" value="<?php echo $company; ?>" placeholder="<?php echo $entry_company; ?>" id="input-company" class="form-control" />
             </div>
           </div>
           <div class="form-group">
@@ -301,7 +307,6 @@
               <?php } ?>
             </div>
           </div>
-          <?php } ?>
           <?php foreach ($custom_fields as $custom_field) { ?>
           <?php if ($custom_field['location'] == 'address') { ?>
           <?php if ($custom_field['type'] == 'select') { ?>
@@ -477,7 +482,6 @@
             </div>
           </div>
         </fieldset>
-          <?php if (false) { ?>
         <fieldset>
           <legend><?php echo $text_newsletter; ?></legend>
           <div class="form-group">
@@ -501,10 +505,8 @@
             </div>
           </div>
         </fieldset>
-          <?php } ?>
         <?php echo $captcha; ?>
-        <?php if (false) { ?>
-        <?php //if ($text_agree) { ?>
+        <?php if ($text_agree) { ?>
         <div class="buttons">
           <div class="pull-right"><?php echo $text_agree; ?>
             <?php if ($agree) { ?>
@@ -524,41 +526,9 @@
         </div>
         <?php } ?>
       </form>
-      </div>
-    </div>
+      <?php echo $content_bottom; ?></div>
+    <?php echo $column_right; ?></div>
 </div>
-
-            <form class="popup-form">
-				<div class="popup-form__header">
-					Заполните, пожалуйста, регистрационную форму
-				</div>
-				<div class="popup-form__body">
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите имя" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите E-mail" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите номер телефона" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите пароль" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Повторите пароль" required>
-					</div>
-					
-				
-				</div>
-			</form>
-
-
-
-
-
-
-
 <script type="text/javascript"><!--
 // Sort the custom fields
 $('#account .form-group[data-sort]').detach().each(function() {
@@ -728,3 +698,4 @@ $('select[name=\'country_id\']').on('change', function() {
 
 $('select[name=\'country_id\']').trigger('change');
 //--></script>
+<?php echo $footer; ?>

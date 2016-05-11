@@ -1520,3 +1520,322 @@
 2016-05-06 18:22:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-06 18:22:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-06 18:22:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 11:07:37 - PHP Notice:  Undefined variable: recent_posts in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 47
+2016-05-10 11:07:37 - PHP Notice:  Undefined variable: not_found_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 84
+2016-05-10 11:15:57 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 11:15:57 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 64
+2016-05-10 11:15:57 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 11:15:57 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 64
+2016-05-10 11:16:58 - PHP Notice:  Undefined index: thumbnail_type_recent in C:\OpenServer\domains\obed2.com.ua\catalog\controller\blog\single.php on line 199
+2016-05-10 11:16:58 - PHP Notice:  Undefined index: thumbnail_type_recent in C:\OpenServer\domains\obed2.com.ua\catalog\controller\blog\single.php on line 199
+2016-05-10 11:16:58 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 64
+2016-05-10 11:16:58 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 64
+2016-05-10 11:18:53 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 64
+2016-05-10 11:18:53 - PHP Notice:  Undefined variable: limit_content in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 64
+2016-05-10 11:20:10 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 11:20:10 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 11:20:25 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 11:20:25 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 12:13:16 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\blog\single.php on line 185 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:13:55 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\blog\single.php on line 185 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:25:58 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\blog\single.php on line 187 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:25:58 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:25:58 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:33 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 40 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:30:33 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:33 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:33 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 41 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:30:33 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:33 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 12:30:33 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 12:30:39 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 40 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:30:39 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:39 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:39 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\module\blog_tabs.php on line 41 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:30:39 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:39 - PHP Notice:  Undefined variable: id in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 254
+2016-05-10 12:30:39 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 12:30:39 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 12:35:32 - PHP Warning:  Missing argument 3 for ModelBlogPost::getPosts(), called in C:\OpenServer\domains\obed2.com.ua\catalog\controller\blog\single.php on line 187 and defined in C:\OpenServer\domains\obed2.com.ua\catalog\model\blog\post.php on line 120
+2016-05-10 12:43:25 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 12:43:36 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 12:43:36 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 12:43:44 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 12:43:44 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 12:43:49 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 12:43:49 - PHP Notice:  Undefined variable: thumbnail_recent in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\blog\single.tpl on line 55
+2016-05-10 13:00:17 - PHP Notice:  Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', date_modified = NOW()' at line 2<br />Error No: 1064<br />INSERT INTO oc_blog_post SET post_author = '1', sort_order = '0', post_status = 'publish', comment_status = 'open',
+			date_available = '2016-05-10', date_added = NOW()', date_modified = NOW() in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:00:17 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\obed2.com.ua\admin\index.php:80) in C:\OpenServer\domains\obed2.com.ua\system\library\response.php on line 12
+2016-05-10 13:03:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:03:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:05:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:05:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:06:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:06:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:29:44 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:29:44 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:38:54 - PHP Warning:  mysqli::query(): MySQL server has gone away in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 19
+2016-05-10 13:38:54 - PHP Warning:  mysqli::query(): Error reading result set's header in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 19
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `oc_language` WHERE status = '1' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\index.php on line 149
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\index.php on line 149
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 188
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 189
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 192
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 193
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_currency in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\currency.php on line 15
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\currency.php on line 15
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM oc_tax_rule tr1 LEFT JOIN oc_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN oc_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN oc_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN oc_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'shipping' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '222' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '3563') ORDER BY tr1.priority ASC in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 28
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 28
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM oc_tax_rule tr1 LEFT JOIN oc_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN oc_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN oc_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN oc_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'store' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '222' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '3563') ORDER BY tr1.priority ASC in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 56
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 56
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_weight_class wc LEFT JOIN oc_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '0' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\weight.php on line 11
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\weight.php on line 11
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_length_class mc LEFT JOIN oc_length_class_description mcd ON (mc.length_class_id = mcd.length_class_id) WHERE mcd.language_id = '0' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\length.php on line 11
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\length.php on line 11
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />DELETE FROM oc_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_extension WHERE `type` = 'openbay' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\openbay.php on line 119
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\openbay.php on line 119
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_event in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\index.php on line 250
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\index.php on line 250
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 1
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: breadcrumbs in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 14
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 15
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 22
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 52
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 53
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 55
+2016-05-10 13:38:54 - PHP Warning:  mysqli::query(): MySQL server has gone away in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 19
+2016-05-10 13:38:54 - PHP Warning:  mysqli::query(): Error reading result set's header in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 19
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM `oc_language` WHERE status = '1' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\index.php on line 149
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\index.php on line 149
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 188
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 189
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 192
+2016-05-10 13:38:54 - PHP Notice:  Undefined index: ru in C:\OpenServer\domains\obed2.com.ua\index.php on line 193
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_currency in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\currency.php on line 15
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\currency.php on line 15
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM oc_tax_rule tr1 LEFT JOIN oc_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN oc_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN oc_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN oc_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'shipping' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '222' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '3563') ORDER BY tr1.priority ASC in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 28
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 28
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT tr1.tax_class_id, tr2.tax_rate_id, tr2.name, tr2.rate, tr2.type, tr1.priority FROM oc_tax_rule tr1 LEFT JOIN oc_tax_rate tr2 ON (tr1.tax_rate_id = tr2.tax_rate_id) INNER JOIN oc_tax_rate_to_customer_group tr2cg ON (tr2.tax_rate_id = tr2cg.tax_rate_id) LEFT JOIN oc_zone_to_geo_zone z2gz ON (tr2.geo_zone_id = z2gz.geo_zone_id) LEFT JOIN oc_geo_zone gz ON (tr2.geo_zone_id = gz.geo_zone_id) WHERE tr1.based = 'store' AND tr2cg.customer_group_id = '1' AND z2gz.country_id = '222' AND (z2gz.zone_id = '0' OR z2gz.zone_id = '3563') ORDER BY tr1.priority ASC in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 56
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\tax.php on line 56
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_weight_class wc LEFT JOIN oc_weight_class_description wcd ON (wc.weight_class_id = wcd.weight_class_id) WHERE wcd.language_id = '0' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\weight.php on line 11
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\weight.php on line 11
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_length_class mc LEFT JOIN oc_length_class_description mcd ON (mc.length_class_id = mcd.length_class_id) WHERE mcd.language_id = '0' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\length.php on line 11
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\length.php on line 11
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />DELETE FROM oc_cart WHERE customer_id = '0' AND date_added < DATE_SUB(NOW(), INTERVAL 1 HOUR) in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_extension WHERE `type` = 'openbay' in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\system\library\openbay.php on line 119
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\system\library\openbay.php on line 119
+2016-05-10 13:38:54 - PHP Notice:  Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_event in C:\OpenServer\domains\obed2.com.ua\system\library\db\mysqli.php on line 41
+2016-05-10 13:38:54 - PHP Notice:  Trying to get property of non-object in C:\OpenServer\domains\obed2.com.ua\index.php on line 250
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\index.php on line 250
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 1
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: breadcrumbs in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 14
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 15
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 22
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 52
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 53
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 55
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 1
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: breadcrumbs in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:38:54 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 14
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 15
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 22
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 52
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 53
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 55
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:38:54 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 1
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: breadcrumbs in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:40:04 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 14
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 15
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 22
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 52
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 53
+2016-05-10 13:40:04 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 55
+2016-05-10 13:44:15 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 12
+2016-05-10 13:44:15 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 42
+2016-05-10 13:44:15 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 43
+2016-05-10 13:44:15 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 45
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 1
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: breadcrumbs in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:46:00 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 4
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 14
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 15
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 22
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 52
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 53
+2016-05-10 13:46:00 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 55
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 1
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 10
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 11
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 13
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 13
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 18
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 48
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 49
+2016-05-10 13:46:14 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 51
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 9
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 10
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 12
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 12
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 47
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 48
+2016-05-10 13:46:22 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 50
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 10
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 12
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 12
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 17
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 47
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 48
+2016-05-10 13:46:40 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 50
+2016-05-10 13:46:54 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 13
+2016-05-10 13:46:54 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 43
+2016-05-10 13:46:54 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 44
+2016-05-10 13:46:54 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 46
+2016-05-10 13:47:15 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 43
+2016-05-10 13:47:15 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 44
+2016-05-10 13:47:15 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 46
+2016-05-10 13:49:07 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 36
+2016-05-10 13:49:07 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 37
+2016-05-10 13:49:07 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 39
+2016-05-10 14:10:16 - PHP Notice:  Error: Could not load template C:/OpenServer/domains/obed2.com.ua/catalog/view/theme/default/template/common/login.tpl! in C:\OpenServer\domains\obed2.com.ua\system\engine\loader.php on line 86
+2016-05-10 14:30:43 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\login.tpl on line 45
+2016-05-10 14:46:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 14:46:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 14:46:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 14:46:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 15:56:44 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 194
+2016-05-10 15:56:44 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 201
+2016-05-10 16:02:06 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 194
+2016-05-10 16:02:06 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 201
+2016-05-10 16:08:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:08:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:26 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:43 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:09:43 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:12:40 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:12:40 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:13:13 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:13:13 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:14:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:14:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:15:38 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 197
+2016-05-10 16:15:38 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 204
+2016-05-10 16:15:38 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 211
+2016-05-10 16:15:38 - PHP Notice:  Undefined index: password in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 211
+2016-05-10 16:15:38 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 214
+2016-05-10 16:16:19 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 197
+2016-05-10 16:16:19 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 204
+2016-05-10 16:16:35 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 197
+2016-05-10 16:16:35 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 204
+2016-05-10 16:16:46 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 197
+2016-05-10 16:16:46 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 204
+2016-05-10 16:22:02 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:22:02 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:44:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 16:44:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:02:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:02:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:24:57 - PHP Notice:  Undefined index: fax in C:\OpenServer\domains\obed2.com.ua\catalog\model\account\customer.php on line 16
+2016-05-10 17:24:57 - PHP Notice:  Undefined index: address_2 in C:\OpenServer\domains\obed2.com.ua\catalog\model\account\customer.php on line 20
+2016-05-10 17:24:57 - PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\OpenServer\domains\obed2.com.ua\index.php:98) in C:\OpenServer\domains\obed2.com.ua\system\library\response.php on line 12
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: header in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 1
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: breadcrumbs in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 4
+2016-05-10 17:33:16 - PHP Warning:  Invalid argument supplied for foreach() in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 4
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 11
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 12
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: column_left in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 14
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 14
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: content_top in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 19
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 540
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 541
+2016-05-10 17:33:16 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 712
+2016-05-10 17:34:34 - PHP Notice:  Undefined variable: content_bottom in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 527
+2016-05-10 17:34:34 - PHP Notice:  Undefined variable: column_right in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 528
+2016-05-10 17:34:34 - PHP Notice:  Undefined variable: footer in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\account\register.tpl on line 699
+2016-05-10 17:36:57 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:36:57 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:37:16 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:37:16 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:39:13 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:39:13 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:41:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:41:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:43:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:43:30 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:52:19 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:52:19 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:56:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 17:56:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:13:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:13:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:13:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:13:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:13:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:13:58 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:14:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:14:50 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:15:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:15:53 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:19:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:19:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:22:49 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 197
+2016-05-10 18:22:49 - PHP Notice:  Undefined index: email in C:\OpenServer\domains\obed2.com.ua\catalog\controller\account\login.php on line 204
+2016-05-10 18:35:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:35:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:24 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:24 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:32 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:37 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-10 18:36:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101

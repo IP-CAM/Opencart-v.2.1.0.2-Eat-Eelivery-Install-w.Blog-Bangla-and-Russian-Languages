@@ -43,7 +43,9 @@ class ControllerAccountLogin extends Controller {
 		}
 
 		if ($this->customer->isLogged()) {
-			$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+//			$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+            $this->response->redirect($this->url->link('common/home', '', 'SSL'));
+            //return false;
 		}
 
 		$this->load->language('account/login');
@@ -95,27 +97,28 @@ class ControllerAccountLogin extends Controller {
 			// Added strpos check to pass McAfee PCI compliance test (http://forum.opencart.com/viewtopic.php?f=10&t=12043&p=151494#p151295)
 			if (isset($this->request->post['redirect']) && (strpos($this->request->post['redirect'], $this->config->get('config_url')) !== false || strpos($this->request->post['redirect'], $this->config->get('config_ssl')) !== false)) {
 				$this->response->redirect(str_replace('&amp;', '&', $this->request->post['redirect']));
+                
 			} else {
 				$this->response->redirect($this->url->link('account/account', '', 'SSL'));
 			}
 		}
 
-		$data['breadcrumbs'] = array();
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('common/home')
-		);
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_account'),
-			'href' => $this->url->link('account/account', '', 'SSL')
-		);
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_login'),
-			'href' => $this->url->link('account/login', '', 'SSL')
-		);
+//		$data['breadcrumbs'] = array();
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_home'),
+//			'href' => $this->url->link('common/home')
+//		);
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_account'),
+//			'href' => $this->url->link('account/account', '', 'SSL')
+//		);
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_login'),
+//			'href' => $this->url->link('account/login', '', 'SSL')
+//		);
 
 		$data['heading_title'] = $this->language->get('heading_title');
 
@@ -173,12 +176,12 @@ class ControllerAccountLogin extends Controller {
 			$data['password'] = '';
 		}
 
-		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['column_right'] = $this->load->controller('common/column_right');
-		$data['content_top'] = $this->load->controller('common/content_top');
-		$data['content_bottom'] = $this->load->controller('common/content_bottom');
-		$data['footer'] = $this->load->controller('common/footer');
-		$data['header'] = $this->load->controller('common/header');
+//		$data['column_left'] = $this->load->controller('common/column_left');
+//		$data['column_right'] = $this->load->controller('common/column_right');
+//		$data['content_top'] = $this->load->controller('common/content_top');
+//		$data['content_bottom'] = $this->load->controller('common/content_bottom');
+//		$data['footer'] = $this->load->controller('common/footer');
+//		$data['header'] = $this->load->controller('common/header');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/login.tpl')) {
 			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/login.tpl', $data));
