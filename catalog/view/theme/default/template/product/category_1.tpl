@@ -252,7 +252,7 @@
 								<div class="food-menu__content__weight">
                                     <?php if ($product['weight_class_id']==1) {
                                     echo round($product['weight'], 3);
-                                    echo "кг";
+                                    echo "rг";
                                     } else if($product['weight_class_id']==2) {
                                     echo round($product['weight']);
                                     echo "г"; }?>

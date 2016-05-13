@@ -278,7 +278,39 @@
 			</div>	
 		</div>
 	<!-- popups and forms end -->
-        
+    <?php //var_dump($logged); ?>
+    <?php //var_dump($st); ?>
+<script>
+<?php if(($logged)&&($st)) { ?>
+<?php if(($st==="login")||($st==="register")) { ?>
+ $(document).ready(function() {
+  <?php if($st=="login") { ?>
+  var text = "Вы успешно авторизовались";
+  <?php } else if($st=="register") { ?>
+  var text = "Вы успешно зарегистрировались";
+  <?php } ?>
+  $.magnificPopup.open({
+    items: {
+      src: '<div class="cart-form cart-form--ty">'+
+   '<div class="cart-form__line-top"></div>'+
+    '<div class="cart-form__ty-message">'+
+     'Спасибо! <br>'+text+
+    '</div>'+
+    '<div class="cart-form__buttons">'+
+     '<a href="#"><img class="svg cart-form__buttons__ok" src="/image/pictures/ok.png" alt="close"></a>'+
+    '</div>'+
+   '</div>', 
+      type: 'inline'
+    }
+  });
+ });
+ $(document).on('click', '.cart-form__buttons__ok', function(event) {
+  event.preventDefault();
+  $.magnificPopup.close();
+ });
+ <?php } ?>
+ <?php } ?>
+</script>
         
         
 	<!-- popups and forms end -->    

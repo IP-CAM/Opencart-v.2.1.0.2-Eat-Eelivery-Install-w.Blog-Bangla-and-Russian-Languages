@@ -24,7 +24,9 @@ function getURLVar(key) {
 
 $(document).ready(function() {
 
-	
+	$('.noclick').click(function(event) {
+		event.preventDefault()
+	});
 
 
 
