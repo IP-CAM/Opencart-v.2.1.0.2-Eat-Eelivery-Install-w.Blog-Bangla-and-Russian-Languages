@@ -87,63 +87,37 @@
 	
 		<!-- login form  start -->
 		<div class="popup-form-wrap login-form mfp-hide">
-			<form class="popup-form">
-				<div class="popup-form__header">
-					Войти в личный кабинет
-				</div>
-				<div class="popup-form__body">
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите имя" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите номер телефона" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите адрес" required>
-					</div>
-					<div class="popup-form__submit-wrap">
-						<input type="submit" value="Войти" required>
-					</div>
-					<div class="popup-form__submit-wrap">
-						<a class="open-popup" href=".reg-form">Регистрация</a>
-					</div>
-				
-				</div>
+            <div id="login-form">
 
-			</form>
+                
+            </div>
+            <?php if($logged){ ?>
+            <div class="popup-form__submit-wrap">
+						<!--<input type="submit" value="Выйти">-->
+                        <a href="/index.php?route=account/logout">Выйти</a>
+					</div>
+            
+            <?php }else{ ?>
+            <div class="popup-form__submit-wrap">
+						<input type="submit" value="Войти" onclick="account.authentication()">
+					</div>
+            <div class="popup-form__submit-wrap">
+				<a class="open-popup" href=".reg-form" onclick="account.register()">Регистрация</a>
+			</div>
+            <?php } ?>
 		</div>
 		<!-- login form  end -->
 		<!-- registr form  start -->
 		<div class="popup-form-wrap reg-form mfp-hide">
-			<form class="popup-form">
-				<div class="popup-form__header">
-					Заполните, пожалуйста, регистрационную форму
-				</div>
-				<div class="popup-form__body">
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите имя" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите E-mail" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите номер телефона" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Введите пароль" required>
-					</div>
-					<div class="popup-form__input-wrap">
-						<input type="text" placeholder="Повторите пароль" required>
-					</div>
-					<div class="popup-form__submit-wrap">
-						<input type="submit" value="Регистрация">
-					</div>
-					<div class="popup-form__submit-wrap">
-						<a class="open-popup" href=".login-form">Авторизация</a>
-					</div>
-				
-				</div>
-			</form>
+            <div id="reg-form">
+			
+            </div>
+            <div class="popup-form__submit-wrap">
+				<input type="submit" value="Регистрация" onclick="account.reg()">
+			</div>
+			<div class="popup-form__submit-wrap">
+				<a class="open-popup" href=".login-form">Авторизация</a>
+			</div>
 		</div>
 		<!-- registr form  end -->
 		<!-- registr form  start -->
@@ -317,4 +291,30 @@
 
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/common.old.js" type="text/javascript"></script>
+
+<script>
+	$(document).ready(function() {
+		var zalupa = "zalupa";
+
+		$.magnificPopup.open({
+		  items: {
+		    src: '<div class="cart-form cart-form--ty">'+
+			'<div class="cart-form__line-top"></div>'+
+				'<div class="cart-form__ty-message">'+
+					'Спасибо! <br>'+zalupa+
+				'</div>'+
+				'<div class="cart-form__buttons">'+
+					'<a href="#"><img class="svg cart-form__buttons__ok" src="/image/pictures/ok.svg" alt="close"></a>'+
+				'</div>'+
+			'</div>', 
+		    type: 'inline'
+		  }
+		});
+	});
+	$(document).on('click', '.cart-form__buttons__ok', function(event) {
+		event.preventDefault();
+		$.magnificPopup.close();
+	});
+</script>
+
 </body></html>

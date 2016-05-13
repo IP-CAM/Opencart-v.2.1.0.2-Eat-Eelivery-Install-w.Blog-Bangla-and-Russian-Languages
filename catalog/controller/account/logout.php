@@ -21,8 +21,8 @@ class ControllerAccountLogout extends Controller {
 
 			$this->event->trigger('post.customer.logout');
 
-			$this->response->redirect($this->url->link('account/logout', '', 'SSL'));
-		}
+            $this->response->redirect($this->url->link('common/home', '', 'SSL'));
+		} else {
 
 		$this->load->language('account/logout');
 
@@ -66,4 +66,5 @@ class ControllerAccountLogout extends Controller {
 			$this->response->setOutput($this->load->view('default/template/common/success.tpl', $data));
 		}
 	}
+    }
 }

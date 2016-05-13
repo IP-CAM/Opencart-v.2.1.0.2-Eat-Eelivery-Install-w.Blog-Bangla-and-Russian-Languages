@@ -326,36 +326,77 @@ var checkout = {
                 alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
             }
         });
+    },    
+}
+
+var account = {
+    'login' : function(){
+        $.ajax({
+            url: 'index.php?route=account/login',
+            //type: 'post',
+            //data: $('#login-form .popup-form__body :input'),
+            dataType: 'html',
+            success: function(html) {
+				$('#login-form').html(html);
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    },   
+
+    'authentication' : function(){
+        $.ajax({
+            url: 'index.php?route=account/login',
+            type: 'post',
+            data: $('#login-form .popup-form__body :input'),
+            dataType: 'html',
+
+            success: function(html) {
+                $('#login-form').html(html);
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    },
+    'register' : function(){
+        $.ajax({
+            url: 'index.php?route=account/register',
+            //type: 'post',
+            //data: $('#login-form .popup-form__body :input'),
+            dataType: 'html',
+            success: function(html) {
+				$('#reg-form').html(html);
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
+    },   
+
+    'reg' : function(){
+        $.ajax({
+            url: 'index.php?route=account/register',
+            type: 'post',
+            data: $('#reg-form .popup-form__body :input'),
+            dataType: 'html',
+
+            success: function(html) {
+                $('#reg-form').html(html);
+            },
+            error: function(xhr, ajaxOptions, thrownError) {
+                alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+            }
+        });
     },
     
-    'check' : function(){
-//        console.log($("#"+form_id).serialize());
-        $.ajax({
-			url: 'index.php?route=checkout/checkout/ajaxCreateConfirm',
-			type: 'get',
-            data: $('#form_checkout').serialize(),
-			dataType: 'json',
-			beforeSend: function() {
-				
-			},
-			complete: function() {
-				
-			},
-			success: function(json) {
-
-
-            console.log(json);
-            
-					//$('.cart > a > div').html(json['total']);
-          
-			},
-	        error: function(xhr, ajaxOptions, thrownError) {
-	            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
-	        }
-		});
-    }
     
+
 }
+
+
+
 
 var voucher = {
 	'add': function() {

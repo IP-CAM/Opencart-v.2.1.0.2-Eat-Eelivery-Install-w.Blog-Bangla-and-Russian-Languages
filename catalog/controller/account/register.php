@@ -37,25 +37,35 @@ class ControllerAccountRegister extends Controller {
 
 			$this->model_account_activity->addActivity('register', $activity_data);
 
-			$this->response->redirect($this->url->link('account/success'));
-		}
+//			$this->response->redirect($this->url->link('account/success'));
+            
+            $data = array(
+                    'status_user' => 'register'
+                );
+				//$this->response->redirect($this->url->link('account/account', '', 'SSL'));
+                if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/logged.tpl')) {
+                    $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/logged.tpl', $data));
+                } else {
+                    $this->response->setOutput($this->load->view('default/template/account/logged.tpl', $data));
+                }
+		} else {
 
-		$data['breadcrumbs'] = array();
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('common/home')
-		);
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_account'),
-			'href' => $this->url->link('account/account', '', 'SSL')
-		);
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_register'),
-			'href' => $this->url->link('account/register', '', 'SSL')
-		);
+//		$data['breadcrumbs'] = array();
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_home'),
+//			'href' => $this->url->link('common/home')
+//		);
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_account'),
+//			'href' => $this->url->link('account/account', '', 'SSL')
+//		);
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_register'),
+//			'href' => $this->url->link('account/register', '', 'SSL')
+//		);
 
 		$data['heading_title'] = $this->language->get('heading_title');
 
@@ -340,28 +350,40 @@ class ControllerAccountRegister extends Controller {
 			$data['agree'] = false;
 		}
 
-		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['column_right'] = $this->load->controller('common/column_right');
-		$data['content_top'] = $this->load->controller('common/content_top');
-		$data['content_bottom'] = $this->load->controller('common/content_bottom');
-		$data['footer'] = $this->load->controller('common/footer');
-		$data['header'] = $this->load->controller('common/header');
+//		$data['column_left'] = $this->load->controller('common/column_left');
+//		$data['column_right'] = $this->load->controller('common/column_right');
+//		$data['content_top'] = $this->load->controller('common/content_top');
+//		$data['content_bottom'] = $this->load->controller('common/content_bottom');
+//		$data['footer'] = $this->load->controller('common/footer');
+//		$data['header'] = $this->load->controller('common/header');
 
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/register.tpl')) {
 			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/register.tpl', $data));
 		} else {
 			$this->response->setOutput($this->load->view('default/template/account/register.tpl', $data));
 		}
+        }
 	}
 
 	private function validate() {
+        $this->request->post['lastname'] = "";
+        //$this->request->post['email'] = "";
+        $this->request->post['fax'] = "";
+        $this->request->post['address_2'] = "";
+        $this->request->post['postcode'] = "";
+        $this->request->post['city'] = "";        
+        $this->request->post['company'] = "";
+        $this->request->post['newsletter'] = "0";
+        $this->request->post['agree'] = "1";
+        
+        
 		if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
 			$this->error['firstname'] = $this->language->get('error_firstname');
 		}
 
-		if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
-			$this->error['lastname'] = $this->language->get('error_lastname');
-		}
+//		if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
+//			$this->error['lastname'] = $this->language->get('error_lastname');
+//		}
 
 		if ((utf8_strlen($this->request->post['email']) > 96) || !preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $this->request->post['email'])) {
 			$this->error['email'] = $this->language->get('error_email');
@@ -379,25 +401,29 @@ class ControllerAccountRegister extends Controller {
 			$this->error['address_1'] = $this->language->get('error_address_1');
 		}
 
-		if ((utf8_strlen(trim($this->request->post['city'])) < 2) || (utf8_strlen(trim($this->request->post['city'])) > 128)) {
-			$this->error['city'] = $this->language->get('error_city');
-		}
+//		if ((utf8_strlen(trim($this->request->post['city'])) < 2) || (utf8_strlen(trim($this->request->post['city'])) > 128)) {
+//			$this->error['city'] = $this->language->get('error_city');
+//		}
 
 		$this->load->model('localisation/country');
 
-		$country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
+		
 
-		if ($country_info && $country_info['postcode_required'] && (utf8_strlen(trim($this->request->post['postcode'])) < 2 || utf8_strlen(trim($this->request->post['postcode'])) > 10)) {
-			$this->error['postcode'] = $this->language->get('error_postcode');
-		}
+//		if ($country_info && $country_info['postcode_required'] && (utf8_strlen(trim($this->request->post['postcode'])) < 2 || utf8_strlen(trim($this->request->post['postcode'])) > 10)) {
+//			$this->error['postcode'] = $this->language->get('error_postcode');
+//		}
 
-		if ($this->request->post['country_id'] == '') {
-			$this->error['country'] = $this->language->get('error_country');
-		}
+//		if ($this->request->post['country_id'] == '') {
+//			$this->error['country'] = $this->language->get('error_country');
+//		}
+        $this->request->post['country_id']=220;
+        
+        $country_info = $this->model_localisation_country->getCountry($this->request->post['country_id']);
 
-		if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '' || !is_numeric($this->request->post['zone_id'])) {
-			$this->error['zone'] = $this->language->get('error_zone');
-		}
+//		if (!isset($this->request->post['zone_id']) || $this->request->post['zone_id'] == '' || !is_numeric($this->request->post['zone_id'])) {
+//			$this->error['zone'] = $this->language->get('error_zone');
+//		}
+        $this->request->post['zone_id']=3484;
 
 		// Customer Group
 		if (isset($this->request->post['customer_group_id']) && is_array($this->config->get('config_customer_group_display')) && in_array($this->request->post['customer_group_id'], $this->config->get('config_customer_group_display'))) {

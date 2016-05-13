@@ -5,8 +5,8 @@ class ModelExtensionBlogPostmodify extends Model {
 
 		$post_author = $this->user->getId() ? $this->user->getId() : '';
 		$this->db->query("INSERT INTO " . DB_PREFIX . "blog_post SET post_author = '" . $post_author ."', sort_order = '" . (int)$data['sort_order'] . "', post_status = '" . $this->db->escape($data['status']) . "', comment_status = '" . $this->db->escape($data['comment']) . "',
-			date_available = '" . $this->db->escape($data['date_available']) . "', date_added = NOW()");
-
+			date_available = '" . $this->db->escape($data['date_available']) . "', date_modified = NOW()");
+            //date_available = '" . $this->db->escape($data['date_available']) . "', date_added = NOW()");
 		$post_id = $this->db->getLastId();
 
 		if (isset($data['image'])) {

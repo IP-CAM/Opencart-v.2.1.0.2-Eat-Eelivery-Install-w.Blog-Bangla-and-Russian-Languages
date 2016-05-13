@@ -23,7 +23,7 @@ class ControllerBlogSingle extends Controller {
 		$data['text_related'] = $this->language->get('text_related');
 		$data['text_gallery_title'] = $this->language->get('text_gallery_title');
 		$data['not_found'] = $this->language->get('not_found');
-
+        
 		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/js/blogScript.js')) {
 			$this->document->addScript('catalog/view/theme/'.$this->config->get('config_template').'/js/blogScript.js');
 		}
@@ -55,12 +55,12 @@ class ControllerBlogSingle extends Controller {
 		$this->document->addStyle('catalog/view/theme/'.$this->config->get('config_template').'/summernote/summernote.css');
 		$this->document->addScript('catalog/view/theme/'.$this->config->get('config_template').'/summernote/summernote.min.js');
 
-		$data['breadcrumbs'] = array();
-
-		$data['breadcrumbs'][] = array(
-			'text' => $this->language->get('text_home'),
-			'href' => $this->url->link('blog/home')
-		);
+//		$data['breadcrumbs'] = array();
+//
+//		$data['breadcrumbs'][] = array(
+//			'text' => $this->language->get('text_home'),
+//			'href' => $this->url->link('blog/home')
+//		);
 
 		$this->load->model('tool/image');
 
@@ -166,6 +166,11 @@ class ControllerBlogSingle extends Controller {
 						
 					}
 				} // End If..
+                
+                
+                
+                
+                
 
 				// Related products
 				$this->load->model('catalog/product');
@@ -244,6 +249,40 @@ class ControllerBlogSingle extends Controller {
 			$data['content_bottom'] = $this->load->controller('common/content_bottom');
 			$data['footer'] = $this->load->controller('common/footer');
 			$data['header'] = $this->load->controller('common/header');
+            
+            
+            
+                $filter_data_recent = array(
+                    'sort' => 'p.date_modified',
+                    'order' => 'DESC',
+                    'start' => 0,
+                    //'limit' => $settings['limit_recent'],
+                    'limit' => 4  
+                );
+//                $filter_data_recent_where = array(
+//                    
+//                );
+                
+
+                $data['recent_posts'] = $this->model_blog_post->getPosts($filter_data_recent,array("p.ID"=>" != '".$this->request->get['pid']."'"));
+//                $data['recent_posts'] = $this->model_blog_post->getPosts($filter_data_recent, null,$this->request->get['pid']);
+//                $data['recent_posts'] = $this->model_blog_post->getPosts($filter_data_recent);
+                
+                foreach ($data['recent_posts'] as $key => $post) {
+                    if (!empty($post['post_thumb']) && is_file(DIR_IMAGE . $post['post_thumb'])) {
+                        //$data['thumbnail_recent'][] = $this->model_tool_image->resize($post['post_thumb'], $thumb_width_recent, $thumb_height_recent);
+                        $data['thumbnail_recent'][] = $this->model_tool_image->resize($post['post_thumb'], 200, 150);
+                    } else {
+                        $data['thumbnail_recent'][] = $this->model_tool_image->resize('no_image.png', 200, 150);
+                        //$data['thumbnail_recent'][] = $this->model_tool_image->resize('no_image.png', $thumb_width_recent, $thumb_height_recent);
+                    }
+                }
+            
+            
+            
+            
+            
+            
 
 			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/blog/single.tpl')) {
 				$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/blog/single.tpl', $data));

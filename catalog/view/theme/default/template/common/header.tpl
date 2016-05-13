@@ -116,7 +116,7 @@
 							</span>
 						</div>
 						<div class="header__buttons">
-							<a href=".login-form" class="header__buttons__btn open-popup">
+							<a href=".login-form" class="header__buttons__btn open-popup" onclick="account.login()">
                                 
 								<img src="/image/pictures/man.png" alt="man">
 							</a>
