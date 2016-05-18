@@ -3833,3 +3833,7 @@
 2016-05-18 13:16:10 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 =======
 >>>>>>> 0499ad2bbf7c2d3036963f04be24d29487997c99
+2016-05-18 13:38:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-18 13:38:18 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-18 13:38:57 - PHP Notice:  Undefined variable: false in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\checkout.tpl on line 24
+2016-05-18 13:39:08 - PHP Notice:  Undefined variable: false in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\checkout.tpl on line 24
