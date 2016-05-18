@@ -47,8 +47,10 @@ class ControllerCommonFooter extends Controller {
         
         $data['logged'] = $this->customer->isLogged();
 //        $data['st'] = $this->request->get['st'];
-        if (isset($this->request->get['st'])) {
-			$data['st'] = $this->request->get['st'];
+        if (isset($this->request->post['st'])) {
+			$data['st'] = $this->request->post['st'];
+        } else if (isset($this->request->get['st'])){
+            $data['st'] = $this->request->get['st'];
         } else {
 			$data['st'] = false;
 		}

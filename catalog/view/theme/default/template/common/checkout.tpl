@@ -21,7 +21,7 @@
 
 </div>
 
-<?php if ($false) { ?>
+<?php if (false) { ?>
 <div class="container">
 
   <?php if ($error_warning) { ?>
