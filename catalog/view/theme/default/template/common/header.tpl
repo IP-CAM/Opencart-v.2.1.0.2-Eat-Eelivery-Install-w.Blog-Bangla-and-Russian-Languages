@@ -198,6 +198,6 @@
             </div>
             <div class="slider__prev"></div>
             <div class="slider__next"></div>
-            <a href="#" class="slider__item__link">Cмотреть все акции</a>
+            <a href="/index.php?route=information/information&information_id=9" class="slider__item__link">Cмотреть все акции</a>
         </div>
     </div>
