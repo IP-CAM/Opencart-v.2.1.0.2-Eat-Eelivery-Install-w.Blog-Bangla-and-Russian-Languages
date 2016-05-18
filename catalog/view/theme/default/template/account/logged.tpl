@@ -1,7 +1,14 @@
 <?php //echo $status_user ?>
 <?php if(($status_user=="login")||($status_user=="register")) { ?>
 <script>
-window.location = "/index.php?route=common/home&st=<?php echo $status_user ?>";
+//window.location = "/index.php?route=common/home&st=<?php echo $status_user ?>";
+//window.location = "/";
+</script>
+<form action="/" name="logged" method="post">
+<input type="hidden" name="st" value="<?php echo $status_user ?>" />
+</form>
+<script type="text/javascript">
+document.forms["logged"].submit();
 
 	
 </script>

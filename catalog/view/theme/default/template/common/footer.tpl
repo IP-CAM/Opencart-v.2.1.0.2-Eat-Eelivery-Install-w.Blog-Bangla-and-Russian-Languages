@@ -19,12 +19,12 @@
 							</div>
 							<div class="footer__contacts__bottom">
 								<ul class="footer__contacts__menu">
-									<!--<li><a href="#">ооо “Обед” Доставка вкусных и полезных обедов в офис для Вас</a></li>-->
+									
 									<li><a href="#">г. Днепропетровск<br/>пр. Гагарина 103 а</a></li>
 									<li>
 										<ul>
 											<li><a href="#">(067) 568-35-35</a></li>
-											<!--<li><a href="#">(093) 222-22-22</a></li>-->
+											
 										</ul>
 									</li>
 								</ul>

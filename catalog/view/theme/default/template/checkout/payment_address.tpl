@@ -14,9 +14,9 @@
     <select name="address_id">
       <?php foreach ($addresses as $address) { ?>
       <?php if ($address['address_id'] == $address_id) { ?>
-      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $firstname; ?>, <?php echo $address['address_1']; ?> </option>
+      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['address_1']; ?> </option>
       <?php } else { ?>
-      <option value="<?php echo $address['address_id']; ?>"><?php echo $firstname; ?>, <?php echo $address['address_1']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>"><?php echo $address['address_1']; ?></option>
       <?php } ?>
       <?php } ?>
     </select>
