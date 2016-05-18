@@ -88,8 +88,7 @@
 		<!-- login form  start -->
 		<div class="popup-form-wrap login-form mfp-hide">
             <div id="login-form">
-
-                
+				
             </div>
             <?php if($logged){ ?>
             <div class="popup-form__submit-wrap">
@@ -297,14 +296,14 @@
      'Спасибо! <br>'+text+
     '</div>'+
     '<div class="cart-form__buttons">'+
-     '<a href="#"><img class="svg cart-form__buttons__ok" src="/image/pictures/ok.png" alt="close"></a>'+
+     '<a href="#" class="close-pop"><img class="svg cart-form__buttons__ok " src="/image/pictures/ok.png" alt="close"></a>'+
     '</div>'+
    '</div>', 
       type: 'inline'
     }
   });
  });
- $(document).on('click', '.cart-form__buttons__ok', function(event) {
+ $(document).on('click', '.close-pop', function(event) {
   event.preventDefault();
   $.magnificPopup.close();
  });
@@ -323,30 +322,4 @@
 
 <script src="catalog/view/javascript/common.js" type="text/javascript"></script>
 <script src="catalog/view/javascript/common.old.js" type="text/javascript"></script>
-
-<script>
-	$(document).ready(function() {
-		var zalupa = "zalupa";
-
-		$.magnificPopup.open({
-		  items: {
-		    src: '<div class="cart-form cart-form--ty">'+
-			'<div class="cart-form__line-top"></div>'+
-				'<div class="cart-form__ty-message">'+
-					'Спасибо! <br>'+zalupa+
-				'</div>'+
-				'<div class="cart-form__buttons">'+
-					'<a href="#"><img class="svg cart-form__buttons__ok" src="/image/pictures/ok.svg" alt="close"></a>'+
-				'</div>'+
-			'</div>', 
-		    type: 'inline'
-		  }
-		});
-	});
-	$(document).on('click', '.cart-form__buttons__ok', function(event) {
-		event.preventDefault();
-		$.magnificPopup.close();
-	});
-</script>
-
 </body></html>

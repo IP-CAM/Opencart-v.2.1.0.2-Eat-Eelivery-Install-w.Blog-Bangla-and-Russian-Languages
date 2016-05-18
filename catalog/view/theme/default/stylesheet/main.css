@@ -140,6 +140,17 @@ a {
   .popup-form-wrap.edit-acc {
     max-width: 660px; }
 
+#login-form a {
+  display: inline-block;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #658123;
+  text-align: center; }
+  #login-form a:hover {
+    background-color: #658123;
+    color: #fff !important; }
+
 .reg-form .popup-form__header {
   line-height: 18px;
   background-image: url(/image/pictures/square.png);
@@ -987,7 +998,7 @@ a {
 
 #chekout__form {
   display: block;
-  max-width: 700px;
+  max-width: 900px;
   position: relative;
   margin: 0px auto; }
 
@@ -1020,10 +1031,8 @@ a {
         margin-left: 10px;
         display: inline-block; }
       .cart-form__form__input-wrap input[type="text"],
-      .cart-form__form__input-wrap input[type="password"],
       .cart-form__form__input-wrap textarea,
       .cart-form__form__input-wrap select {
-        font-size: 17px;
         height: 48px;
         padding: 5px 10px;
         color: #7f7f7f;
@@ -1737,6 +1746,79 @@ a {
     z-index: 99; }
     .shares__box__more:hover {
       background-color: #ebaf1d; }
+
+.edit-pages {
+  background-color: #fff;
+  padding: 75px 0;
+  text-align: center; }
+  .edit-pages__adress {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 1px solid #636363;
+    margin-bottom: 25px; }
+    .edit-pages__adress__name {
+      font-size: 18px;
+      font-style: italic; }
+    .edit-pages__adress a {
+      display: inline-block;
+      padding: 6px 17px;
+      border-radius: 6px;
+      margin: 0px 4px;
+      position: relative;
+      top: 0; }
+      .edit-pages__adress a:hover {
+        top: -4px; }
+    .edit-pages__adress__edit {
+      background-color: #658123; }
+    .edit-pages__adress__delete {
+      background-color: #a91f26; }
+  .edit-pages__inner {
+    margin: 0px auto; }
+    .edit-pages__inner.account {
+      max-width: 400px; }
+    .edit-pages__inner.adress {
+      max-width: 632px; }
+  .edit-pages__title {
+    color: #658123;
+    font-size: 28px;
+    font-style: italic;
+    margin-bottom: 20px; }
+  .edit-pages__subtitle {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 40px; }
+  .edit-pages__form {
+    width: 100%; }
+  .edit-pages__input-wrap {
+    margin-bottom: 15px; }
+    .edit-pages__input-wrap input {
+      width: 100%;
+      padding: 0px 12px;
+      box-shadow: inset 0 3px 4px rgba(0, 0, 0, 0.25);
+      height: 47px;
+      color: #333;
+      letter-spacing: 1px;
+      border: none; }
+  .edit-pages__check-wrap {
+    text-align: left;
+    color: #242424; }
+  .edit-pages__buttons {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .edit-pages__buttons__next, .edit-pages__buttons__prev {
+      font-size: 20px;
+      color: #242424;
+      border: 1px solid #658123;
+      display: inline-block;
+      border-radius: 6px;
+      padding: 7px 17px; }
+      .edit-pages__buttons__next:hover, .edit-pages__buttons__prev:hover {
+        background-color: #658123;
+        color: #fff; }
 
 input.error {
   border: 1px solid red; }

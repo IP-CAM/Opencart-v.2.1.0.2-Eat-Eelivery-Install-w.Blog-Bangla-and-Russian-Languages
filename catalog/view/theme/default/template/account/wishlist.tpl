@@ -1,4 +1,127 @@
 <?php echo $header; ?>
+<div class="container con-mod">
+  <div class="edit-pages">
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Учетная запись</div>
+      <div class="edit-pages__subtitle">Редактирование Ваших данных</div>
+      <form action="#" class="edit-pages__form">
+        <div class="edit-pages__input-wrap">
+          <input type="text" placeholder="Введите имя">
+        </div>
+        <div class="edit-pages__input-wrap">
+          <input type="text" placeholder="Введите номер телефона">
+        </div>
+        <div class="edit-pages__input-wrap">
+          <input type="text" placeholder="Введите E-mail">
+        </div>
+        <div class="edit-pages__input-wrap">
+          <input type="text" placeholder="Введите адрес">
+        </div>
+        <div class="edit-pages__buttons">
+          <a href="#" class="edit-pages__buttons__prev">Назад</a>
+          <a href="#" class="edit-pages__buttons__next">Сохранить</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="edit-pages">
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Редактировать адрес</div>
+      <div class="edit-pages__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+      <form action="#" class="edit-pages__form">
+        <div class="edit-pages__input-wrap">
+          <input type="text" placeholder="Введите имя">
+        </div>
+        <div class="edit-pages__input-wrap">
+          <input type="text" placeholder="3я улица строителей">
+        </div>
+        <div class="edit-pages__check-wrap">
+          <input type="checkbox" id="lol">
+          <label for="lol">Сделать основным адресом</label>
+        </div>
+        <div class="edit-pages__buttons">
+          <a href="#" class="edit-pages__buttons__prev">Назад</a>
+          <a href="#" class="edit-pages__buttons__next">Сохранить</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="edit-pages">
+    <div class="edit-pages__inner adress">
+      <div class="edit-pages__title">Список адресов доставки</div>
+      <div class="edit-pages__subtitle">Редактирование Ваших данных</div>
+      <div class="edit-pages__adress-wrap">
+        <div class="edit-pages__adress">
+          <div class="edit-pages__adress__name">
+            3 улица строителей, Днепропетровск 
+          </div>
+          <div class="edit-pages__adress__buttons">
+            <a href="#" class="edit-pages__adress__edit">Редактировать</a>
+            <a href="#" class="edit-pages__adress__delete">Удалить</a>
+          </div>
+        </div>
+        <div class="edit-pages__adress">
+          <div class="edit-pages__adress__name">
+            3 улица строителей, Днепропетровск 
+          </div>
+          <div class="edit-pages__adress__buttons">
+            <a href="#" class="edit-pages__adress__edit">Редактировать</a>
+            <a href="#" class="edit-pages__adress__delete">Удалить</a>
+          </div>
+        </div>
+        <div class="edit-pages__adress">
+          <div class="edit-pages__adress__name">
+            3 улица строителей, Днепропетровск 
+          </div>
+          <div class="edit-pages__adress__buttons">
+            <a href="#" class="edit-pages__adress__edit">Редактировать</a>
+            <a href="#" class="edit-pages__adress__delete">Удалить</a>
+          </div>
+        </div>
+        <div class="edit-pages__adress">
+          <div class="edit-pages__adress__name">
+            3 улица строителей, Днепропетровск 
+          </div>
+          <div class="edit-pages__adress__buttons">
+            <a href="#" class="edit-pages__adress__edit">Редактировать</a>
+            <a href="#" class="edit-pages__adress__delete">Удалить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="edit-pages">
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Смена пароля</div>
+      <div class="edit-pages__subtitle">Редактирование Ваших данных</div>
+      <form action="#" class="edit-pages__form">
+        <div class="edit-pages__input-wrap">
+          <input  placeholder="Введите пароль" type="password">
+        </div>
+        <div class="edit-pages__input-wrap">
+          <input  placeholder="Повторите пароль" type="password">
+        </div>
+        <div class="edit-pages__buttons">
+          <a href="#" class="edit-pages__buttons__prev">Назад</a>
+          <a href="#" class="edit-pages__buttons__next">Сохранить</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="edit-pages">
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Ваш заказ принят!</div>
+      <div class="edit-pages__subtitle">Если у Вас возникли вопросы, пожалуйста, свяжитесь с нами.</div>
+      <a href="#" class="edit-pages__buttons__next">Ок</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
