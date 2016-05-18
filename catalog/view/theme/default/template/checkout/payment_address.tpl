@@ -1,19 +1,22 @@
-<form class="form-horizontal">
+<h2 class="cart-form__title">
+	Заказ товара
+</h2>
+<form class="form-horizontal cart-form__form clearfix">
+    
+  <div class="cart-form__form__left col-md-6">
   <?php if ($addresses) { ?>
   <div class="radio">
     <label>
       <input type="radio" name="payment_address" value="existing" checked="checked" />
       <?php echo $text_address_existing; ?></label>
   </div>
-  <div id="payment-existing">
-    <select name="address_id" class="form-control">
+  <div id="payment-existing" class="cart-form__form__input-wrap">
+    <select name="address_id">
       <?php foreach ($addresses as $address) { ?>
       <?php if ($address['address_id'] == $address_id) { ?>
-      <?php if(false){ ?><option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option><?php } ?>
-      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $address['firstname']; ?>, <?php echo $address['address_1']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>" selected="selected"><?php echo $firstname; ?>, <?php echo $address['address_1']; ?> </option>
       <?php } else { ?>
-      <?php if(false){ ?><option value="<?php echo $address['address_id']; ?>"><?php echo $address['firstname']; ?> <?php echo $address['lastname']; ?>, <?php echo $address['address_1']; ?>, <?php echo $address['city']; ?>, <?php echo $address['zone']; ?>, <?php echo $address['country']; ?></option><?php } ?>
-      <option value="<?php echo $address['address_id']; ?>"><?php echo $address['firstname']; ?>, <?php echo $address['address_1']; ?></option>
+      <option value="<?php echo $address['address_id']; ?>"><?php echo $firstname; ?>, <?php echo $address['address_1']; ?></option>
       <?php } ?>
       <?php } ?>
     </select>
@@ -26,20 +29,20 @@
   <?php } ?>
   <br />
   <div id="payment-new" style="display: <?php echo ($addresses ? 'none' : 'block'); ?>;">
-    <div class="form-group required" style="display: none">
-      <label class="col-sm-2 control-label" for="input-payment-firstname"><?php echo $entry_firstname; ?></label>
-      <div class="col-sm-10">
-        <input type="text" name="firstname" placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" class="form-control" value="<?php echo $address['firstname']; ?>" />
-      </div>
-    </div>
-    <div class="form-group required">
-      <label class="col-sm-2 control-label" for="input-payment-address-1"><?php echo $entry_address_1; ?></label>
-      <div class="col-sm-10">
-        <input type="text" name="address_1" value="" placeholder="<?php echo $entry_address_1; ?>" id="input-payment-address-1" class="form-control" />
-      </div>
-    </div>
       
-    <?php if(false){ ?>
+      
+      <div class="cart-form__form__input-wrap">
+        <input type="text" name="address_1" value="" placeholder="<?php echo $entry_address_1; ?>" id="input-payment-address-1" />
+      </div>
+
+      
+      
+      
+      
+      <?php if(false){ ?>
+      <div class="cart-form__form__input-wrap" >
+        <input type="text" name="firstname" value="<?php echo $address['firstname']; ?> " placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" />
+      </div>
     <div class="form-group required">
       <label class="col-sm-2 control-label" for="input-payment-lastname"><?php echo $entry_lastname; ?></label>
       <div class="col-sm-10">
@@ -93,7 +96,7 @@
         </select>
       </div>
     </div>
-    <?php } ?>
+      <?php } ?>
     <?php foreach ($custom_fields as $custom_field) { ?>
     <?php if ($custom_field['location'] == 'address') { ?>
     <?php if ($custom_field['type'] == 'select') { ?>
@@ -204,15 +207,48 @@
     <?php } ?>
     <?php } ?>
     <?php } ?>
+    
+    
+    
+    </div>
   </div>
-<?php if(false) { ?> 
-  <div class="buttons clearfix">
+    <div class="cart-form__form__right col-md-6">
+      <div class="cart-form__form__input-wrap">
+        <select name="address_2" id="input-payment-address-2">
+            <option value="" checked="checked">Выберите зону доставки</option>
+            <option value="Красная зона">Красная зона</option>
+            <option value="Зеленая зона">Зеленая зона</option>
+            <option value="Желтая зона">Желтая зона</option>
+        </select>
+      </div>    
+        
+    <div class="cart-form__form__input-wrap">
+        <label>Коментарий к заказу</label>
+      <div class="cart-form__form__input-wrap">
+          
+          <textarea name="comment" rows="8"><?php echo $comment; ?></textarea>
+
+      </div>
+      </div>
+      
+      
+      <!--<div class="buttons clearfix">
     <div class="pull-right">
       <input type="button" value="<?php echo $button_continue; ?>" id="button-payment-address" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
     </div>
-  </div>
-<?php } ?>
+  </div>-->
+    </div>
 </form>
+<div id="chekout__buttons" class="cart-form__buttons">
+            
+            <a id="button-payment-address">
+                <img class="cart-form__buttons__ok" src="/image/pictures/ok.png" alt="close">
+            </a>
+            <a class="close-order cart-menu checkout__close">
+                <img class="cart-form__buttons__close" src="/image/pictures/close.png" alt="close">
+            </a>
+
+        </div>
 <script type="text/javascript"><!--
 $('input[name=\'payment_address\']').on('change', function() {
 	if (this.value == 'new') {

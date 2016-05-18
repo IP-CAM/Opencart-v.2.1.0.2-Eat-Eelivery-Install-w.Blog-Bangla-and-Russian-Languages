@@ -514,6 +514,11 @@ var other = {
 }
 
 
+$(document).on("click", ".checkout__close", function(){
+    $.magnificPopup.close();
+});
+
+
 /* Agree to Terms */
 $(document).delegate('.agree', 'click', function(e) {
 	e.preventDefault();
@@ -671,4 +676,7 @@ $(document).delegate('.agree', 'click', function(e) {
 
 		});
 	}
+    
+    
+    
 })(window.jQuery);

@@ -1,12 +1,3 @@
-
-<script language="Javascript" type="text/javascript">
- $(document).ready(function(){
- //$('#button-payment-method').trigger('click');
- //$("#collapse-payment-method").children().remove();
- });
- 
-</script>
-
 <?php if ($error_warning) { ?>
 <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?></div>
 <?php } ?>
@@ -29,13 +20,11 @@
 </div>
 <?php } ?>
 <?php } ?>
-<?php if(false){ ?>
 <p><strong><?php echo $text_comments; ?></strong></p>
 <p>
   <textarea name="comment" rows="8" class="form-control"><?php echo $comment; ?></textarea>
-<?php } ?>
-<?php //if ($text_agree) { ?>
-<?php if (false) { ?>
+</p>
+<?php if ($text_agree) { ?>
 <div class="buttons">
   <div class="pull-right"><?php echo $text_agree; ?>
     <?php if ($agree) { ?>
@@ -47,10 +36,19 @@
     <input type="button" value="<?php echo $button_continue; ?>" id="button-payment-method" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
   </div>
 </div>
-<?php //} else { ?>
+<?php } else { ?>
 <div class="buttons">
   <div class="pull-right">
     <input type="button" value="<?php echo $button_continue; ?>" id="button-payment-method" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
   </div>
 </div>
 <?php } ?>
+<script language="Javascript" type="text/javascript">
+ $(document).ready(function(){
+// console.log('azaza');
+     $('#button-payment-method').trigger('click');
+     $("#collapse-payment-address").remove();
+ //$("#collapse-shipping-address").children().remove();
+ });
+ 
+</script>

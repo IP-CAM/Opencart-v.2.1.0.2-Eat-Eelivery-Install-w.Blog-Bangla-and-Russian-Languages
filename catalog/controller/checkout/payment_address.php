@@ -21,7 +21,13 @@ class ControllerCheckoutPaymentAddress extends Controller {
 
 		$data['button_continue'] = $this->language->get('button_continue');
 		$data['button_upload'] = $this->language->get('button_upload');
-
+        $data['text_comments'] = $this->language->get('text_comments');
+        
+        if (isset($this->session->data['comment'])) {
+			$data['comment'] = $this->session->data['comment'];
+		} else {
+			$data['comment'] = '';
+		}
 		if (isset($this->session->data['payment_address']['address_id'])) {
 			$data['address_id'] = $this->session->data['payment_address']['address_id'];
 		} else {
@@ -43,6 +49,8 @@ class ControllerCheckoutPaymentAddress extends Controller {
 		} else {
 			$data['zone_id'] = '';
 		}
+        
+        $data['firstname'] = $this->customer->getFirstName();
 
 		$this->load->model('localisation/country');
 
@@ -67,11 +75,11 @@ class ControllerCheckoutPaymentAddress extends Controller {
 	}
 
 	public function save() {
-        
+        $this->request->post['firstname'] = $this->customer->getFirstName();
         $this->request->post['lastname'] = "";
         $this->request->post['email'] = "";
         $this->request->post['fax'] = "";
-        $this->request->post['address_2'] = "";
+//        $this->request->post['address_2'] = "";
         $this->request->post['postcode'] = "";
         $this->request->post['city'] = "";        
         $this->request->post['company'] = "";         
@@ -125,10 +133,15 @@ class ControllerCheckoutPaymentAddress extends Controller {
 
 					$this->session->data['payment_address'] = $this->model_account_address->getAddress($this->request->post['address_id']);
                     $this->session->data['shipping_address'] = $this->model_account_address->getAddress($this->request->post['address_id']);
-
+                    
+                    if ((utf8_strlen(trim($this->request->post['address_2'])) < 3) || (utf8_strlen(trim($this->request->post['address_2'])) > 128)) {
+                        $json['error']['address_2'] = "Выберите зону";
+                    }
+                    
 					unset($this->session->data['payment_method']);
 					unset($this->session->data['payment_methods']);
 				}
+                
 			} else {
 				if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
 					$json['error']['firstname'] = $this->language->get('error_firstname');
@@ -141,6 +154,10 @@ class ControllerCheckoutPaymentAddress extends Controller {
 				if ((utf8_strlen(trim($this->request->post['address_1'])) < 3) || (utf8_strlen(trim($this->request->post['address_1'])) > 128)) {
 					$json['error']['address_1'] = $this->language->get('error_address_1');
 				}
+                
+                if ((utf8_strlen(trim($this->request->post['address_2'])) < 3) || (utf8_strlen(trim($this->request->post['address_2'])) > 128)) {
+                    $json['error']['address_2'] = "Выберите зону";
+                }
 
 //				if ((utf8_strlen($this->request->post['city']) < 2) || (utf8_strlen($this->request->post['city']) > 32)) {
 //					$json['error']['city'] = $this->language->get('error_city');
@@ -202,8 +219,12 @@ class ControllerCheckoutPaymentAddress extends Controller {
 				}
 			}
 		}
-        //var_dump($this->session->data['payment_address']);
-        //var_dump($this->session->data['shipping_address']);
+        $this->session->data['comment'] = strip_tags($this->request->post['comment']);
+        $this->session->data['payment_address']['address_2'] = $this->request->post['address_2'];
+        $this->session->data['payment_address']['firstname'] = $this->customer->getFirstName();
+        
+        //var_dump($this->request->post['comment']);
+//        var_dump($this->session->data['payment_address']);
 
 		$this->response->addHeader('Content-Type: application/json');
 		$this->response->setOutput(json_encode($json));

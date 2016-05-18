@@ -161,7 +161,7 @@ class ControllerAccountEdit extends Controller {
 		if (isset($this->request->post['custom_field'])) {
 			$data['account_custom_field'] = $this->request->post['custom_field'];
 		} elseif (isset($customer_info)) {
-			$data['account_custom_field'] = json_decode($customer_info['custom_field'], true);
+			$data['account_custom_field'] = unserialize($customer_info['custom_field']);
 		} else {
 			$data['account_custom_field'] = array();
 		}
@@ -183,13 +183,16 @@ class ControllerAccountEdit extends Controller {
 	}
 
 	protected function validate() {
+        $this->request->post['lastname'] = "";
+        $this->request->post['fax'] = "";
+        
 		if ((utf8_strlen(trim($this->request->post['firstname'])) < 1) || (utf8_strlen(trim($this->request->post['firstname'])) > 32)) {
 			$this->error['firstname'] = $this->language->get('error_firstname');
 		}
 
-		if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
-			$this->error['lastname'] = $this->language->get('error_lastname');
-		}
+//		if ((utf8_strlen(trim($this->request->post['lastname'])) < 1) || (utf8_strlen(trim($this->request->post['lastname'])) > 32)) {
+//			$this->error['lastname'] = $this->language->get('error_lastname');
+//		}
 
 		if ((utf8_strlen($this->request->post['email']) > 96) || !preg_match('/^[^\@]+@.*.[a-z]{2,15}$/i', $this->request->post['email'])) {
 			$this->error['email'] = $this->language->get('error_email');

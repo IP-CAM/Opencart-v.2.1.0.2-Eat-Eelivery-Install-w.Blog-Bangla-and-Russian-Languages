@@ -1,7 +1,10 @@
-<div class="row">
-  <div class="col-sm-6">
+<h2 class="cart-form__title">
+	Заказ товара
+</h2>
+<div class="cart-form__form clearfix">
+  <div class="col-sm-6 cart-form__form__left">
     <fieldset id="account">
-      <legend><?php echo $text_your_details; ?></legend>
+      <label>Заполните, пожалуйста, форму</label>
       <div class="form-group" style="display: <?php echo (count($customer_groups) > 1 ? 'block' : 'none'); ?>;">
         <label class="control-label"><?php echo $entry_customer_group; ?></label>
         <?php foreach ($customer_groups as $customer_group) { ?>
@@ -20,27 +23,29 @@
         <?php } ?>
         <?php } ?>
       </div>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-firstname"><?php echo $entry_firstname; ?></label>
-        <input type="text" name="firstname" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" class="form-control" />
+      <div class="cart-form__form__input-wrap">
+        <input type="text" name="firstname" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" />
       </div>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-telephone"><?php echo $entry_telephone; ?></label>
-        <input type="text" name="telephone" value="" placeholder="<?php echo $entry_telephone; ?>" id="input-payment-telephone" class="form-control" />
+      
+      <div class="cart-form__form__input-wrap">
+        <input type="text" name="email" value="" placeholder="<?php echo $entry_email; ?>" id="input-payment-email" />
       </div>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-email"><?php echo $entry_email; ?></label>
-        <input type="text" name="email" value="" placeholder="<?php echo $entry_email; ?>" id="input-payment-email" class="form-control" />
+      <div class="cart-form__form__input-wrap">
+        <input type="text" name="telephone" value="" placeholder="<?php echo $entry_telephone; ?>" id="input-payment-telephone" />
       </div>
-
+      
+      <div class="cart-form__form__input-wrap">
+        <input type="text" name="address_1" value="" placeholder="<?php echo $entry_address_1; ?>" id="input-payment-address-1" />
+      </div>
+      
       <?php if(false){ ?>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-lastname"><?php echo $entry_lastname; ?></label>
-        <input type="text" name="lastname" value="" placeholder="<?php echo $entry_lastname; ?>" id="input-payment-lastname" class="form-control" />
-      </div>
       <div class="form-group">
         <label class="control-label" for="input-payment-fax"><?php echo $entry_fax; ?></label>
         <input type="text" name="fax" value="" placeholder="<?php echo $entry_fax; ?>" id="input-payment-fax" class="form-control" />
+      </div>
+      <div class="form-group required">
+        <label class="control-label" for="input-payment-lastname"><?php echo $entry_lastname; ?></label>
+        <input type="text" name="lastname" value="" placeholder="<?php echo $entry_lastname; ?>" id="input-payment-lastname" class="form-control" />
       </div>
       <?php } ?>
       <?php foreach ($custom_fields as $custom_field) { ?>
@@ -138,29 +143,41 @@
       <?php } ?>
     </fieldset>
     <fieldset>
-      <legend><?php echo $text_your_password; ?></legend>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-password"><?php echo $entry_password; ?></label>
-        <input type="password" name="password" value="" placeholder="<?php echo $entry_password; ?>" id="input-payment-password" class="form-control" />
+      <div class="cart-form__form__input-wrap">
+        <input type="password" name="password" value="" placeholder="<?php echo $entry_password; ?>" id="input-payment-password" />
       </div>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-confirm"><?php echo $entry_confirm; ?></label>
-        <input type="password" name="confirm" value="" placeholder="<?php echo $entry_confirm; ?>" id="input-payment-confirm" class="form-control" />
+      <div class="cart-form__form__input-wrap">
+        <input type="password" name="confirm" value="" placeholder="<?php echo $entry_confirm; ?>" id="input-payment-confirm"  />
       </div>
     </fieldset>
+    
   </div>
-  <div class="col-sm-6">
+  <div class="col-sm-6 cart-form__form__right">
     <fieldset id="address">
-      <legend><?php echo $text_your_address; ?></legend>
-      <div class="form-group required">
-        <label class="control-label" for="input-payment-address-1"><?php echo $entry_address_1; ?></label>
-        <input type="text" name="address_1" value="" placeholder="<?php echo $entry_address_1; ?>" id="input-payment-address-1" class="form-control" />
+      <label>Выберите способ доставки</label>
+            
+      <div class="cart-form__form__input-wrap">
+        <select name="address_2" id="input-payment-address-2">
+            <option value="" checked="checked">Выберите зону доставки</option>
+            <option value="Красная зона">Красная зона</option>
+            <option value="Зеленая зона">Зеленая зона</option>
+            <option value="Желтая зона">Желтая зона</option>
+        </select>
       </div>
+      <label>Коментарий к заказу</label>
+      <div class="cart-form__form__input-wrap">
+          
+          <textarea name="comment" rows="8"><?php echo $comment; ?></textarea>
+
+      </div>
+      
+      
       <?php if(false){ ?>
       <div class="form-group">
         <label class="control-label" for="input-payment-company"><?php echo $entry_company; ?></label>
         <input type="text" name="company" value="" placeholder="<?php echo $entry_company; ?>" id="input-payment-company" class="form-control" />
       </div>
+      
       <div class="form-group">
         <label class="control-label" for="input-payment-address-2"><?php echo $entry_address_2; ?></label>
         <input type="text" name="address_2" value="" placeholder="<?php echo $entry_address_2; ?>" id="input-payment-address-2" class="form-control" />
@@ -192,6 +209,9 @@
         </select>
       </div>
       <?php } ?>
+      
+      
+      
       <?php foreach ($custom_fields as $custom_field) { ?>
       <?php if ($custom_field['location'] == 'address') { ?>
       <?php if ($custom_field['type'] == 'select') { ?>
@@ -287,17 +307,15 @@
       <?php } ?>
     </fieldset>
 
-    <?php echo $captcha; ?>
   </div>
 </div>
-
 <?php if (false) { ?>
-
 <div class="checkbox">
   <label for="newsletter">
     <input type="checkbox" name="newsletter" value="1" id="newsletter" />
     <?php echo $entry_newsletter; ?></label>
 </div>
+<?php } ?>
 <?php if ($shipping_required) { ?>
 <div class="checkbox">
   <label>
@@ -305,23 +323,38 @@
     <?php echo $entry_shipping; ?></label>
 </div>
 <?php } ?>
-
-<?php } ?>
-
 <?php //if ($text_agree) { ?>
 <?php if (false) { ?>
 <div class="buttons clearfix">
+    <p><strong><?php echo $text_comments; ?></strong></p>
+    <p>
+      <textarea name="comment" rows="8" ><?php echo $comment; ?></textarea>
+    </p>
   <div class="pull-right"><?php echo $text_agree; ?> &nbsp;
     <input type="checkbox" name="agree" value="1" />
     <input type="button" value="<?php echo $button_continue; ?>" id="button-register" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
   </div>
 </div>
-<?php //} else { ?>
-<div class="buttons clearfix">
+<?php } else { ?>
+<!--<div class="buttons clearfix">
+    
   <div class="pull-right">
     <input type="button" value="<?php echo $button_continue; ?>" id="button-register" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
   </div>
-</div>
+</div>-->
+
+
+        <div id="chekout__buttons" class="cart-form__buttons">
+            
+            <a id="button-register">
+                <img class="cart-form__buttons__ok" src="/image/pictures/ok.png" alt="close">
+            </a>
+            <a class="close-order cart-menu checkout__close">
+                <img class="cart-form__buttons__close" src="/image/pictures/close.png" alt="close">
+            </a>
+
+        </div>
+
 <?php } ?>
 <script type="text/javascript"><!--
 // Sort the custom fields

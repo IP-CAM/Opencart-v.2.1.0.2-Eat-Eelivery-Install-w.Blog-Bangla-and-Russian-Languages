@@ -1,34 +1,12 @@
 <script language="Javascript" type="text/javascript">
  $(document).ready(function(){
- //$('#button-shipping-address').trigger('click');
+    $('#button-shipping-address').trigger('click');
  //$("#collapse-shipping-address").children().remove();
  });
  
 </script>
 <form class="form-horizontal">
-    
-  <?php //var_dump($addresses); ?>
-  <?php //var_dump(end($addresses)['address_id']); 
-  
-  
-  ?>
-  
-  
-    
   <?php if ($addresses) { ?>
-  
-  <?php
-  if ($selected_id!=='last'){
-    if($selected_id !== ''){
-      $address_id=$selected_id;
-    }
-  } else {
-    $address_id=end($addresses)['address_id'];
-  }
-  ?>
-  
-  
-  
   <div class="radio">
     <label>
       <input type="radio" name="shipping_address" value="existing" checked="checked" />

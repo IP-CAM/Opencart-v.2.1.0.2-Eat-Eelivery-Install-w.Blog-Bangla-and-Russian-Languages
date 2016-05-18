@@ -106,19 +106,26 @@
 					<div class="header__right-part">
 						<div class="header__phones">
 							<span class="header__phones__phone">
-								(048) 555 55 55
+								&nbsp;
 							</span>
 							<span class="header__phones__phone">
-								(048) 666 66 66
+								(067) 568 35 35
 							</span>
 							<span class="header__phones__phone">
-								(048) 777 77 77
+								&nbsp;
 							</span>
 						</div>
 						<div class="header__buttons">
 							<a href=".login-form" class="header__buttons__btn open-popup" onclick="account.login()">
                                 
 								<img src="/image/pictures/man.png" alt="man">
+                                <?php if ($logged) { ?>
+                                
+                                    
+                                
+                                <img class="logged" src="/image/pictures/ok2.png">
+                                
+                                <?php } ?>
 							</a>
 							<a href=".for-magnific" class="header__buttons__btn open-popup">
 								<img src="/image/pictures/phone.png" alt="phone">

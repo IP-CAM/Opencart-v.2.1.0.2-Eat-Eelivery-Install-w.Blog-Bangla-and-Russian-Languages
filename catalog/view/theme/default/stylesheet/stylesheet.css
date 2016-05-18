@@ -762,14 +762,36 @@ h2.price {
     font-weight: bold;
     /*box-shadow: 0 7px 6px rgba(0,0,0,0.7);*/
     box-shadow: 14px 0 14px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
 
-.header__buttons__btn:hover .totprod{
+.header__buttons__btn:hover .totprod, .header__buttons__btn:hover .logged {
     box-shadow:none;
 }
 
+
 .why-we__box__description p {
     font-size: 16px;
+}
+
+.logged{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    box-shadow: 14px 0 14px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+
+.food-menu__total{
+    padding: 15px 110px 30px 135px !important;
+}
+
+#collapse-payment-address, #collapse-checkout-option, #collapse-payment-method, #collapse-checkout-confirm {
+    width: 100%;
 }
 
 /*#top{

@@ -1020,8 +1020,10 @@ a {
         margin-left: 10px;
         display: inline-block; }
       .cart-form__form__input-wrap input[type="text"],
+      .cart-form__form__input-wrap input[type="password"],
       .cart-form__form__input-wrap textarea,
       .cart-form__form__input-wrap select {
+        font-size: 17px;
         height: 48px;
         padding: 5px 10px;
         color: #7f7f7f;

@@ -1,4 +1,65 @@
 <?php if (!isset($redirect)) { ?>
+
+
+<h2 class="cart-form__title">
+    Подтверждение заказа
+</h2>
+<h4 class="cart-form__sub-title">
+    Проверьте, пожалуйста, правильность заказа
+</h4>
+<div class="cart-form__form-wr">
+    <form action="" class="cart-form__form clearfix">
+        <div class="cart-form__table">
+            <div class="cart-form__table__header">
+                <div class="cart-form__table__header-img">
+                                                    
+                </div>
+                <div class="cart-form__table__header-name">Позиция</div>
+                <div class="cart-form__table__header-num">Кол-во</div>
+                <div class="cart-form__table__header-price">Цена</div>
+                <div class="cart-form__table__header-total">Итого</div>
+            </div>
+            <div class="cart-form__table__body">
+                
+                <?php foreach ($products as $product) { ?>
+                <div class="cart-form__table__box">
+                    <div class="cart-form__table__box-img">
+                        <img src="<?php echo $product['image']; ?>" alt="">
+                        <!--<img src="/image/pictures/product1_1-l.png" alt="">-->
+                    </div>
+                    <div class="cart-form__table__box-name">
+                        <?php echo $product['name']; ?>
+                    </div>
+                    <div class="cart-form__table__box-num"><?php echo $product['quantity']; ?></div>
+                    <div class="cart-form__table__box-price"><?php echo $product['price']; ?></div>
+                    <div class="cart-form__table__box-total"><?php echo $product['total']; ?></div>
+                </div>
+                <?php } ?>
+                
+                
+                
+                
+              
+                
+                
+                <?php foreach ($totals as $total) { ?>
+                
+                <div class="cart-form__eat-box__total cart-form__table__box-bot">
+                    <span><?php echo $total['title']; ?>: <strong><?php echo $total['text']; ?></strong></span>
+                </div>
+                
+                <?php } ?>
+                
+
+            </div>
+        </div>
+    </form>
+
+</div>
+
+
+<?php if (false){ ?>
+
 <div class="table-responsive">
   <table class="table table-bordered table-hover">
     <thead>
@@ -48,6 +109,10 @@
     </tfoot>
   </table>
 </div>
+
+<?php } ?>
+
+
 <?php echo $payment; ?>
 <?php } else { ?>
 <script type="text/javascript"><!--

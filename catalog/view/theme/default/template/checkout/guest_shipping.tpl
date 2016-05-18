@@ -1,10 +1,3 @@
-<script language="Javascript" type="text/javascript">
- $(document).ready(function(){
- $("#collapse-shipping-address").children().remove();
- });
- 
-</script>
-
 <form class="form-horizontal">
   <div class="form-group required">
     <label class="col-sm-2 control-label" for="input-shipping-firstname"><?php echo $entry_firstname; ?></label>

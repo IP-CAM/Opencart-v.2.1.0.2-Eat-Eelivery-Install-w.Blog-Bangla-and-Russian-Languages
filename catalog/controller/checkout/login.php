@@ -48,7 +48,7 @@ class ControllerCheckoutLogin extends Controller {
 		}
 
 		if ((!$this->cart->hasProducts() && empty($this->session->data['vouchers'])) || (!$this->cart->hasStock() && !$this->config->get('config_stock_checkout'))) {
-			$json['redirect'] = $this->url->link('checkout/cart');
+			$json['redirect'] = $this->url->link('common/home');
 		}
 
 		if (!$json) {
@@ -121,7 +121,7 @@ class ControllerCheckoutLogin extends Controller {
 			// Trigger customer post login event
 			$this->event->trigger('post.customer.login');
 
-			$json['redirect'] = $this->url->link('checkout/checkout', '', 'SSL');
+			$json['redirect'] = $this->url->link('common/home', '', 'SSL') . '&st=login';
 		}
 
 		$this->response->addHeader('Content-Type: application/json');

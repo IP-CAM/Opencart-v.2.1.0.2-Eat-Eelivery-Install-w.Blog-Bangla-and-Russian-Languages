@@ -325,7 +325,7 @@ class ControllerCheckoutConfirm extends Controller {
 			$this->load->model('tool/upload');
 
 			$data['products'] = array();
-
+$this->load->model('tool/image');
 			foreach ($this->cart->getProducts() as $product) {
 				$option_data = array();
 
@@ -382,8 +382,12 @@ class ControllerCheckoutConfirm extends Controller {
 					'price'      => $this->currency->format($this->tax->calculate($product['price'], $product['tax_class_id'], $this->config->get('config_tax'))),
 					'total'      => $this->currency->format($this->tax->calculate($product['price'], $product['tax_class_id'], $this->config->get('config_tax')) * $product['quantity']),
 					'href'       => $this->url->link('product/product', 'product_id=' . $product['product_id']),
+                    'image'      => $this->model_tool_image->resize($product['image'], 100, 100),
+//                    'image'      => $product['image'],
 				);
 			}
+            
+//            var_dump($product);
 
 			// Gift Voucher
 			$data['vouchers'] = array();

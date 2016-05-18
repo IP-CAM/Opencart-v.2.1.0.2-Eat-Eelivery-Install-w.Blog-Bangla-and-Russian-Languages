@@ -27,6 +27,12 @@ class ControllerCheckoutGuest extends Controller {
 
 		$data['button_continue'] = $this->language->get('button_continue');
 		$data['button_upload'] = $this->language->get('button_upload');
+        $data['text_comments'] = $this->language->get('text_comments');
+        if (isset($this->session->data['comment'])) {
+			$data['comment'] = $this->session->data['comment'];
+		} else {
+			$data['comment'] = '';
+		}
 
 		$data['customer_groups'] = array();
 
@@ -180,12 +186,11 @@ class ControllerCheckoutGuest extends Controller {
         $this->request->post['lastname'] = "";
         $this->request->post['email'] = "";
         $this->request->post['fax'] = "";
-        $this->request->post['address_2'] = "";
+        //$this->request->post['address_2'] = "";
         $this->request->post['postcode'] = "";
         $this->request->post['city'] = "";        
         $this->request->post['company'] = "";         
                 
-        
         
         
 		$this->load->language('checkout/checkout');
@@ -226,6 +231,10 @@ class ControllerCheckoutGuest extends Controller {
 
 			if ((utf8_strlen(trim($this->request->post['address_1'])) < 3) || (utf8_strlen(trim($this->request->post['address_1'])) > 128)) {
 				$json['error']['address_1'] = $this->language->get('error_address_1');
+			}
+            
+            if ((utf8_strlen(trim($this->request->post['address_2'])) < 3) || (utf8_strlen(trim($this->request->post['address_2'])) > 128)) {
+				$json['error']['address_2'] = "Выберите зону";
 			}
 
 //			if ((utf8_strlen(trim($this->request->post['city'])) < 2) || (utf8_strlen(trim($this->request->post['city'])) > 128)) {
@@ -347,7 +356,7 @@ class ControllerCheckoutGuest extends Controller {
 			}
 
 			// Default Payment Address
-			//if ($this->session->data['guest']['shipping_address']) {
+			if ($this->session->data['guest']['shipping_address']) {
 				$this->session->data['shipping_address']['firstname'] = $this->request->post['firstname'];
 				$this->session->data['shipping_address']['lastname'] = $this->request->post['lastname'];
 				$this->session->data['shipping_address']['company'] = $this->request->post['company'];
@@ -383,14 +392,14 @@ class ControllerCheckoutGuest extends Controller {
 				} else {
 					$this->session->data['shipping_address']['custom_field'] = array();
 				}
-			//}
+			}
 
 			unset($this->session->data['shipping_method']);
 			unset($this->session->data['shipping_methods']);
 			unset($this->session->data['payment_method']);
 			unset($this->session->data['payment_methods']);
 		}
-
+        $this->session->data['comment'] = strip_tags($this->request->post['comment']);
 		$this->response->addHeader('Content-Type: application/json');
 		$this->response->setOutput(json_encode($json));
 	}

@@ -31,6 +31,12 @@ class ControllerCheckoutRegister extends Controller {
 
 		$data['button_continue'] = $this->language->get('button_continue');
 		$data['button_upload'] = $this->language->get('button_upload');
+        $data['text_comments'] = $this->language->get('text_comments');
+        if (isset($this->session->data['comment'])) {
+			$data['comment'] = $this->session->data['comment'];
+		} else {
+			$data['comment'] = '';
+		}
 
 		$data['customer_groups'] = array();
 
@@ -110,7 +116,7 @@ class ControllerCheckoutRegister extends Controller {
         $this->request->post['lastname'] = "";
         //$this->request->post['email'] = "";
         $this->request->post['fax'] = "";
-        $this->request->post['address_2'] = "";
+        //$this->request->post['address_2'] = "";
         $this->request->post['postcode'] = "";
         $this->request->post['city'] = "";        
         $this->request->post['company'] = "";   
@@ -124,7 +130,7 @@ class ControllerCheckoutRegister extends Controller {
 
 		// Validate if customer is already logged out.
 		if ($this->customer->isLogged()) {
-			$json['redirect'] = $this->url->link('checkout/checkout', '', 'SSL');
+			//$json['redirect'] = $this->url->link('checkout/checkout', '', 'SSL');
 		}
 
 		// Validate cart has products and has stock.
@@ -179,6 +185,10 @@ class ControllerCheckoutRegister extends Controller {
 
 			if ((utf8_strlen(trim($this->request->post['address_1'])) < 3) || (utf8_strlen(trim($this->request->post['address_1'])) > 128)) {
 				$json['error']['address_1'] = $this->language->get('error_address_1');
+			}
+            
+            if ((utf8_strlen(trim($this->request->post['address_2'])) < 3) || (utf8_strlen(trim($this->request->post['address_2'])) > 128)) {
+				$json['error']['address_2'] = "Выберите зону";
 			}
 
 //			if ((utf8_strlen(trim($this->request->post['city'])) < 2) || (utf8_strlen(trim($this->request->post['city'])) > 128)) {
@@ -294,7 +304,7 @@ class ControllerCheckoutRegister extends Controller {
 
 			$this->model_account_activity->addActivity('register', $activity_data);
 		}
-
+        $this->session->data['comment'] = strip_tags($this->request->post['comment']);
 		$this->response->addHeader('Content-Type: application/json');
 		$this->response->setOutput(json_encode($json));
 	}

@@ -228,15 +228,15 @@ class ControllerAccountOrder extends Controller {
 
 			$replace = array(
 				'firstname' => $order_info['payment_firstname'],
-				'lastname'  => $order_info['payment_lastname'],
-				'company'   => $order_info['payment_company'],
+				//'lastname'  => $order_info['payment_lastname'],
+				//'company'   => $order_info['payment_company'],
 				'address_1' => $order_info['payment_address_1'],
-				'address_2' => $order_info['payment_address_2'],
-				'city'      => $order_info['payment_city'],
-				'postcode'  => $order_info['payment_postcode'],
-				'zone'      => $order_info['payment_zone'],
-				'zone_code' => $order_info['payment_zone_code'],
-				'country'   => $order_info['payment_country']
+				//'address_2' => $order_info['payment_address_2'],
+				//'city'      => $order_info['payment_city'],
+				//'postcode'  => $order_info['payment_postcode'],
+				//'zone'      => $order_info['payment_zone'],
+				//'zone_code' => $order_info['payment_zone_code'],
+				//'country'   => $order_info['payment_country']
 			);
 
 			$data['payment_address'] = str_replace(array("\r\n", "\r", "\n"), '<br />', preg_replace(array("/\s\s+/", "/\r\r+/", "/\n\n+/"), '<br />', trim(str_replace($find, $replace, $format))));

@@ -1,9 +1,3 @@
-<script language="Javascript" type="text/javascript">
- $(document).ready(function(){
- //$('#button-shipping-method').trigger('click');
- });
-</script>
-
 <?php if ($error_warning) { ?>
 <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?></div>
 <?php } ?>
@@ -33,10 +27,8 @@
 <p>
   <textarea name="comment" rows="8" class="form-control"><?php echo $comment; ?></textarea>
 </p>
-<?php if(false){ ?>
 <div class="buttons">
   <div class="pull-right">
     <input type="button" value="<?php echo $button_continue; ?>" id="button-shipping-method" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary" />
   </div>
 </div>
-<?php } ?>
