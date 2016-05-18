@@ -127,8 +127,25 @@
 	&.login-form, &.reg-form{
 		max-width: 362px;
 	}
+	&.login-form{
+		
+	}
 	&.edit-acc{
 		max-width: 660px;
+	}
+}
+#login-form{
+	a{
+		display: inline-block;
+		width: 100%;
+		padding: 5px 10px;
+		border-radius: 5px;
+		border: 1px solid #658123;
+		text-align: center;
+		&:hover{
+			background-color: #658123;
+			color: #fff !important;
+		}
 	}
 }
 .reg-form .popup-form__header{
@@ -1155,7 +1172,7 @@
 
 #chekout__form{
 	display: block;
-	max-width: 700px;
+	max-width: 900px;
 	position: relative;
 	margin: 0px auto;
 }
@@ -2070,6 +2087,102 @@
 	}
 }
 
+.edit-pages{
+	background-color: #fff;
+	padding: 75px 0;
+	text-align: center;
+	&__adress-wrap{
+	
+	}
+	&__adress{
+		display: flex;
+		justify-content: space-between;
+		padding: 5px 10px;
+		border-bottom: 1px solid #636363;
+		margin-bottom: 25px;
+		&__name{
+			font-size: 18px;
+			font-style: italic;
+		}
+		a{
+			display: inline-block;
+			padding: 6px 17px;
+			border-radius: 6px;
+			margin: 0px 4px;
+			position: relative;
+			top: 0;
+			&:hover{
+				top: -4px;
+			}
+		}
+		&__edit{
+			background-color: #658123;
+		}
+		&__delete{
+			background-color: #a91f26;
+		}
+	}
+	&__inner{
+		margin: 0px auto;
+		&.account{
+			max-width: 400px;
+		}
+		&.adress{
+			max-width: 632px;
+		}
+	}
+	&__title{
+		color: #658123;
+		font-size: 28px;
+		font-style: italic;
+		margin-bottom: 20px;
+	}
+	&__subtitle{
+		font-size: 17px;
+		font-style: italic;
+		font-weight: bold;
+		margin-bottom: 40px;
+	}
+	&__form{
+		width: 100%;
+	}
+	&__input-wrap{
+		margin-bottom: 15px;
+		input{
+			width: 100%;
+			padding: 0px 12px;
+			box-shadow: inset 0 3px 4px rgba(0, 0, 0, 0.25);
+			height: 47px;
+			color: #333;
+			letter-spacing: 1px;
+			border: none;
+		}
+	}
+	&__check-wrap{
+		text-align: left;
+		color: #242424;
+	}
+	&__buttons{
+		margin-top: 35px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		&__next,
+		&__prev{
+			font-size: 20px;
+			color: #242424;
+			border: 1px solid #658123;
+			display: inline-block;
+			border-radius: 6px;
+			padding: 7px 17px;
+			&:hover{
+				background-color: #658123;
+				color: #fff;
+			}
+		}
+	}
+
+}
 
 
 input.error{

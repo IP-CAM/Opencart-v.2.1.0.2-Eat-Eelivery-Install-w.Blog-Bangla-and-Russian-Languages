@@ -1,4 +1,47 @@
 <?php echo $header; ?>
+
+<div class="container con-mod">
+    
+    
+  
+  <div class="edit-pages">
+  <?php if ($success) { ?>
+  <div class="alert alert-success"><i class="fa fa-check-circle"></i> <?php echo $success; ?></div>
+  <?php } ?>
+  <?php if ($error_warning) { ?>
+  <div class="alert alert-warning"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?></div>
+  <?php } ?>
+    <div class="edit-pages__inner adress">
+      <div class="edit-pages__title">Список адресов доставки</div>
+      <div class="edit-pages__subtitle">Редактирование Ваших данных</div>
+      <div class="edit-pages__adress-wrap">
+          
+        <?php if ($addresses) { ?>
+            
+            <?php foreach ($addresses as $result) { ?>
+            <div class="edit-pages__adress">
+              <div class="edit-pages__adress__name">
+                <?php echo $result['address']; ?>
+              </div>
+              <div class="edit-pages__adress__buttons">
+                <a href="<?php echo $result['update']; ?>" class="edit-pages__adress__edit">Редактировать</a>
+                <a href="<?php echo $result['delete']; ?>" class="edit-pages__adress__delete">Удалить</a>
+              </div>
+            </div>
+            
+           
+        <?php } ?>
+            
+        <?php } else { ?>
+        <p><?php echo $text_empty; ?></p>
+        <?php } ?>
+          
+      </div>
+    </div>
+  </div>
+</div>
+
+<?php if (false) { ?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -40,4 +83,5 @@
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+<?php } ?>
 <?php echo $footer; ?>

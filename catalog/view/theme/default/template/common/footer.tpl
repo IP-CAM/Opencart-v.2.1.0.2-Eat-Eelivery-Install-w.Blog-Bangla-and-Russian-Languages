@@ -88,8 +88,7 @@
 		<!-- login form  start -->
 		<div class="popup-form-wrap login-form mfp-hide">
             <div id="login-form">
-
-                
+				
             </div>
             <?php if($logged){ ?>
             <div class="popup-form__submit-wrap">
@@ -297,14 +296,14 @@
      'Спасибо! <br>'+text+
     '</div>'+
     '<div class="cart-form__buttons">'+
-     '<a href="#"><img class="svg cart-form__buttons__ok" src="/image/pictures/ok.png" alt="close"></a>'+
+     '<a href="#" class="close-pop"><img class="svg cart-form__buttons__ok " src="/image/pictures/ok.png" alt="close"></a>'+
     '</div>'+
    '</div>', 
       type: 'inline'
     }
   });
  });
- $(document).on('click', '.cart-form__buttons__ok', function(event) {
+ $(document).on('click', '.close-pop', function(event) {
   event.preventDefault();
   $.magnificPopup.close();
  });

@@ -1,4 +1,46 @@
 <?php echo $header; ?>
+
+<div class="container con-mod">
+
+  <div class="edit-pages">
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Редактировать адрес</div>
+      <!--<div class="edit-pages__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>-->
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="edit-pages__form">
+        <div class="edit-pages__input-wrap" style="display: none">
+          <input type="text" name="firstname" value="<?php echo $firstname; ?>" placeholder="<?php echo $entry_firstname; ?>" id="input-firstname"/>
+        </div>
+        <div class="edit-pages__input-wrap">
+
+          <input type="text" name="address_1" value="<?php echo $address_1; ?>" placeholder="Введите адрес" id="input-address-1" class="form-control" />
+              <?php if ($error_address_1) { ?>
+              <div class="text-danger"><?php echo $error_address_1; ?></div>
+              <?php } ?>
+        </div>
+        <div class="edit-pages__check-wrap">
+          <?php if ($default) { ?>
+          <input name="default" type="checkbox" value="1" id="lol" checked="checked">
+          <?php } else { ?>
+          <input name="default" type="checkbox" value="1" id="lol">
+          <?php } ?>
+          
+          <label for="lol">Сделать основным адресом</label>
+          
+              
+          
+        </div>
+        <div class="edit-pages__buttons">
+          <a href="<?php echo $back; ?>" class="edit-pages__buttons__prev">Назад</a>
+          <input type="submit" value="Сохранить" class="edit-pages__buttons__next" />
+        </div>
+      </form>
+    </div>
+  </div>
+
+</div>
+
+
+<?php if (false) { ?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -290,6 +332,9 @@
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+
+<?php } ?>
+
 <script type="text/javascript"><!--
 // Sort the custom fields
 $('.form-group[data-sort]').detach().each(function() {

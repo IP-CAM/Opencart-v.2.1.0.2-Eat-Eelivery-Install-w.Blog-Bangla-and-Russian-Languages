@@ -1,4 +1,35 @@
 <?php echo $header; ?>
+<div class="container con-mod">
+  <div class="edit-pages">
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Смена пароля</div>
+      <div class="edit-pages__subtitle">Редактирование Ваших данных</div>
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="edit-pages__form">
+        <div class="edit-pages__input-wrap">
+
+          <input type="password" name="password" value="<?php echo $password; ?>" placeholder="<?php echo $entry_password; ?>" id="input-password" class="form-control" />
+              <?php if ($error_password) { ?>
+              <div class="text-danger"><?php echo $error_password; ?></div>
+              <?php } ?>
+        </div>
+        <div class="edit-pages__input-wrap">
+
+          <input type="password" name="confirm" value="<?php echo $confirm; ?>" placeholder="<?php echo $entry_confirm; ?>" id="input-confirm" class="form-control" />
+              <?php if ($error_confirm) { ?>
+              <div class="text-danger"><?php echo $error_confirm; ?></div>
+              <?php } ?>
+        </div>
+        <div class="edit-pages__buttons">
+          <a href="<?php echo $back; ?>" class="edit-pages__buttons__prev">Назад</a>
+   
+          <input type="submit" value="Сохранить" class="edit-pages__buttons__next" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<?php if (false) { ?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -47,4 +78,6 @@
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+<?php } ?>
+
 <?php echo $footer; ?>

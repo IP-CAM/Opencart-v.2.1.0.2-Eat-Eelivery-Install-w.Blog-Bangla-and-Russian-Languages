@@ -1,4 +1,47 @@
 <?php echo $header; ?>
+
+<div class="container con-mod">
+    
+  <div class="edit-pages">
+      <?php if ($error_warning) { ?>
+  <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?></div>
+  <?php } ?>
+    <div class="edit-pages__inner account">
+      <div class="edit-pages__title">Учетная запись</div>
+      <div class="edit-pages__subtitle">Редактирование Ваших данных</div>
+ 
+      <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" class="edit-pages__form">
+        <div class="edit-pages__input-wrap">
+          
+          <input type="text" name="firstname" value="<?php echo $firstname; ?>" placeholder="Введите имя" id="input-firstname" />
+          <?php if ($error_firstname) { ?>
+              <div class="text-danger"><?php echo $error_firstname; ?></div>
+          <?php } ?>
+        </div>
+        <div class="edit-pages__input-wrap">
+          
+          <input type="tel" name="telephone" value="<?php echo $telephone; ?>" placeholder="Введите номер телефона" id="input-telephone" class="form-control" />
+              <?php if ($error_telephone) { ?>
+              <div class="text-danger"><?php echo $error_telephone; ?></div>
+              <?php } ?>
+        </div>
+        <div class="edit-pages__input-wrap">
+          
+          <input type="email" name="email" value="<?php echo $email; ?>" placeholder="Введите E-mail" id="input-email" class="form-control" />
+              <?php if ($error_email) { ?>
+              <div class="text-danger"><?php echo $error_email; ?></div>
+              <?php } ?>
+        </div>
+        <div class="edit-pages__buttons">
+          <a href="<?php echo $back; ?>" class="edit-pages__buttons__prev">Назад</a>
+          <input type="submit" value="Сохранить" class="edit-pages__buttons__next" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<?php if (false) { ?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -233,6 +276,7 @@
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+<?php } ?>
 <script type="text/javascript"><!--
 // Sort the custom fields
 $('.form-group[data-sort]').detach().each(function() {
