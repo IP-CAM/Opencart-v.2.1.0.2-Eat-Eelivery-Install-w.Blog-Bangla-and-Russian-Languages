@@ -4070,6 +4070,7 @@
 2016-05-18 17:31:48 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-18 17:54:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-18 17:54:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+<<<<<<< HEAD
 2016-05-19 9:24:45 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 9:24:45 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 9:28:14 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
@@ -4086,3 +4087,15 @@
 2016-05-19 9:41:56 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 9:42:13 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 9:42:13 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+=======
+2016-05-19 9:50:57 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 9:50:57 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:03:00 - PHP Notice:  Use of undefined constant w - assumed 'w' in C:\OpenServer\domains\obed2.com.ua\catalog\controller\product\category.php on line 16
+2016-05-19 10:03:00 - PHP Notice:  Use of undefined constant w - assumed 'w' in C:\OpenServer\domains\obed2.com.ua\catalog\controller\product\category.php on line 19
+2016-05-19 10:24:39 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:24:39 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:29:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:29:38 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:30:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:30:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+>>>>>>> e806ca6fcb961393a0c464f7513251715145d0bd
