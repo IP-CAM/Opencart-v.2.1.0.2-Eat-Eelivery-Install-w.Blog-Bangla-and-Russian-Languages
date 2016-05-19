@@ -35,7 +35,10 @@
         <?php } else { ?>
         <p><?php echo $text_empty; ?></p>
         <?php } ?>
-          
+        <div class="edit-pages__buttons">
+          <a href="<?php echo $back; ?>" class="edit-pages__buttons__prev"><?php echo $button_back; ?></a>
+          <a href="<?php echo $add; ?>" class="edit-pages__buttons__next"><?php echo $button_new_address; ?></a>
+        </div>
       </div>
     </div>
   </div>

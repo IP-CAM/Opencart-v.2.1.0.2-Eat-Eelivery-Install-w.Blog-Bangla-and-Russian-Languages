@@ -794,6 +794,21 @@ h2.price {
     width: 100%;
 }
 
+#log--form .edit-pages__input-wrap a{
+    display: inline-block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #658123;
+    text-align: center;
+    color: #373737;
+}
+
+#log--form .edit-pages__input-wrap a:hover{
+    background-color: #658123;
+    color: #fff !important;
+}
+
 /*#top{
     display: none;
 }*/

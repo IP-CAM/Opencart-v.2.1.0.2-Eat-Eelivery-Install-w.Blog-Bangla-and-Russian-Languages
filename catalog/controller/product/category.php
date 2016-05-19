@@ -8,7 +8,25 @@ class ControllerProductCategory extends Controller {
 		$this->load->model('catalog/product');
 
 		$this->load->model('tool/image');
+        
+        
+        
+        if (isset($this->request->get['path'])) {
+            if ($this->request->get['path'] === "65_73") {
+                if(!isset($this->request->get['filter'])) {
+                    if (date('w') === 0){
+                        $this->request->get['filter'] = 7;
+                    } else {
+                        $this->request->get['filter'] = date('w');
+                    }
+                }
+            }
+            
+        }
 
+        
+        
+        
 		if (isset($this->request->get['filter'])) {
 			$filter = $this->request->get['filter'];
 		} else {

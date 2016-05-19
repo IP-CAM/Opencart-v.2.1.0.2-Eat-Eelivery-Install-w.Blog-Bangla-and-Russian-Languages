@@ -1,4 +1,33 @@
 <?php echo $header; ?>
+
+<div class="container con-mod">
+  <div class="edit-pages">
+    <?php if ($success) { ?>
+  <div class="alert alert-success"><i class="fa fa-check-circle"></i> <?php echo $success; ?></div>
+  <?php } ?>
+  
+    <div class="edit-pages__inner account" id="log--form">
+      <div class="edit-pages__title"><?php echo $text_my_account; ?></div>
+
+        <div class="edit-pages__input-wrap">
+            <a href="<?php echo $edit; ?>"><?php echo $text_edit; ?></a>
+        </div>
+        <div class="edit-pages__input-wrap">
+            <a href="<?php echo $password; ?>"><?php echo $text_password; ?></a>
+        </div>
+        <div class="edit-pages__input-wrap">
+            <a href="<?php echo $address; ?>"><?php echo $text_address; ?></a>
+        </div>
+        
+        <div class="popup-form__submit-wrap">
+            <a href="/index.php?route=account/logout">Выйти</a>
+        </div>
+      
+    </div>
+  </div>
+</div>    
+    
+<?php if (false) { ?>
 <div class="container">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
@@ -42,4 +71,5 @@
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>
+<?php } ?>
 <?php echo $footer; ?>
