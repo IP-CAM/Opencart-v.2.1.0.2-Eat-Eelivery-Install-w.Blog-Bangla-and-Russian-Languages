@@ -28,17 +28,21 @@ a {
   text-decoration: none;
   outline: none;
   transition: all .2s ease-out; }
-  a:hover, a:active, a:focus {
+  a:hover {
     color: #fff;
     text-decoration: none;
     outline: none; }
+
+.added:after {
+  bottom: 105%;
+  opacity: 1; }
 
 #preloader {
   color: red;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
+  background-color: #F6FCFF;
   left: 0;
   top: 0;
   position: fixed;
@@ -818,7 +822,24 @@ a {
     .food-menu__content__add-to-cart a {
       cursor: pointer;
       opacity: 0.7;
-      display: inline-block; }
+      display: inline-block;
+      position: relative; }
+      .food-menu__content__add-to-cart a:after {
+        content: "Товар добавлен";
+        font-weight: bold;
+        text-align: center;
+        font-family: "cocon-regular";
+        font-size: 17px;
+        color: green;
+        position: absolute;
+        transform: translateY(-50%);
+        left: 0;
+        bottom: 80%;
+        transition: all .3s ease;
+        opacity: 0; }
+      .food-menu__content__add-to-cart a.added:after {
+        bottom: 83%;
+        opacity: 1; }
     .food-menu__content__add-to-cart a:hover {
       opacity: 1; }
     .food-menu__content__add-to-cart .number input {
@@ -1014,10 +1035,12 @@ a {
     flex-wrap: wrap; }
     .cart-form__form__left {
       flex-direction: column;
-      display: flex; }
+      display: flex;
+      width: 50%; }
     .cart-form__form__right {
       flex-direction: column;
-      display: flex; }
+      display: flex;
+      width: 50%; }
     .cart-form__form label {
       font-size: 17px;
       margin-top: 0px;
@@ -1043,6 +1066,7 @@ a {
       .cart-form__form__input-wrap textarea {
         height: 117px;
         padding: 10px;
+        width: 100%;
         resize: none; }
       .cart-form__form__input-wrap.adr {
         width: 100%; }

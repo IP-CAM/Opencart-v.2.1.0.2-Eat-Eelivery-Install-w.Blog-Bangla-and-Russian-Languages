@@ -154,6 +154,7 @@ var cart = {
 				//$('.cart > button').button('reset');
 			},
 			success: function(json) {
+				console.log(this);
 				$('.alert, .text-danger').remove();
 
 				if (json['redirect']) {
@@ -424,6 +425,7 @@ var voucher = {
 				$('.cart > button').button('reset');
 			},
 			success: function(json) {
+
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
 					$('.cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
@@ -434,6 +436,7 @@ var voucher = {
 				} else {
 					$('.cart > ul').load('index.php?route=common/cart/info ul li');
 				}
+
 			},
 	        error: function(xhr, ajaxOptions, thrownError) {
 	            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
@@ -685,6 +688,14 @@ $(document).delegate('.agree', 'click', function(e) {
 	}
     
     $(document).ready(function() {
+    	$(".food-menu__content__add-to-cart a").click(function(event) {
+    		var self = $(this);
+    		self.addClass('added');
+    		setTimeout(function(){
+    			self.removeClass('added');
+    		},550);
+    	});
+
     	var setParamsOnReady = function(key, quantity) {
 			$.ajax({
 				url: 'index.php?route=checkout/cart/edit2',
@@ -711,10 +722,6 @@ $(document).delegate('.agree', 'click', function(e) {
 		        }
 			});
 		}();
-
-
-
-    	
     });
     
 })(window.jQuery);

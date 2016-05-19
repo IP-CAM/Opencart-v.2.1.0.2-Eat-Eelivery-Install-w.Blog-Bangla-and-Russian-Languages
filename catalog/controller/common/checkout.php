@@ -3,7 +3,8 @@ class ControllerCommonCheckout extends Controller {
 	public function index() {
 //		// Validate cart has products and has stock.
 		if ((!$this->cart->hasProducts() && empty($this->session->data['vouchers'])) || (!$this->cart->hasStock() && !$this->config->get('config_stock_checkout'))) {
-			return false;
+			//return false;
+            $this->response->redirect($this->url->link('common/home'));
 		}
 //
 //		// Validate minimum quantity requirements.
@@ -19,7 +20,7 @@ class ControllerCommonCheckout extends Controller {
 			}
 
 			if ($product['minimum'] > $product_total) {
-				$this->response->redirect($this->url->link('checkout/cart'));
+				$this->response->redirect($this->url->link('common/home'));
 			}
 		}
                 
