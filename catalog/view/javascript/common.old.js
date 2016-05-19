@@ -241,10 +241,11 @@ var cart = {
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
-					$('.cart > a > div, .num').html(json['total']); 
+					$('.cart > a > div, .num').html(json['total']);
+					 console.log($(".cart-form__eat-box__total strong").html())
 					$(".tot").html($(".cart-form__eat-box__total strong").html());
 //                    $('.cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-				}, 100);
+				}, 1500);
 
 				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
 					location = 'index.php?route=checkout/cart';
@@ -278,8 +279,10 @@ var cart = {
                         $('.totprod').remove();
                         $('.num').html("0");
                         $(".tot").html("0грн");
+                        
                     }else{
-                       $('.cart > a > div, .num').html(json['total']); 
+                       $('.cart > a > div, .num').html(json['total']);
+                       $(".tot").html($(".cart-form__eat-box__total strong").html());
                        
                     }
                     
@@ -287,7 +290,7 @@ var cart = {
                     
                     
 					//$('.cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-				}, 100);
+				}, 1500);
 
 				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
 					location = 'index.php?route=checkout/cart';

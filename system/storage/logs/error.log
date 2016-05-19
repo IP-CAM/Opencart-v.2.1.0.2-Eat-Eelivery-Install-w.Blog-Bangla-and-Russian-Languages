@@ -4099,3 +4099,5 @@
 2016-05-19 10:30:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 10:30:31 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 >>>>>>> e806ca6fcb961393a0c464f7513251715145d0bd
+2016-05-19 10:39:07 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 10:39:07 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
