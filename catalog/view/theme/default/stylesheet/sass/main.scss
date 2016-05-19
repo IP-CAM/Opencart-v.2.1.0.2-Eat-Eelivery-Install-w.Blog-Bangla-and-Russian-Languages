@@ -8,7 +8,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #fff;
+	background-color: #F6FCFF;
 	left: 0;
 	top: 0;
 	position: fixed;
@@ -942,6 +942,25 @@
 				cursor: pointer;
 				opacity: 0.7;
 				display: inline-block;
+				position: relative;
+				&:after{
+					content: "Товар добавлен";
+					font-weight: bold;
+					text-align: center;
+					font-family: "cocon-regular";
+					font-size: 17px;
+					color: green;
+					position: absolute;
+					transform: translateY(-50%);
+					left: 0;
+					bottom: 80%;
+					transition: all .3s ease;
+					opacity: 0;
+				}
+				&.added:after{
+					bottom: 83%;
+					opacity: 1;
+				}
 			}
 			a:hover{
 				opacity: 1;
@@ -1192,10 +1211,12 @@
 		&__left{
 			flex-direction: column;
 			display: flex;
+			width: 50%;
 		}
 		&__right{
 			flex-direction: column;
 			display: flex;
+			width: 50%;
 		}
 		label{
 			font-size: 17px;
@@ -1225,6 +1246,7 @@
 			textarea{
 				height: 117px;
 				padding: 10px;
+				width: 100%;
 				resize: none;
 			}
 			&.adr{
