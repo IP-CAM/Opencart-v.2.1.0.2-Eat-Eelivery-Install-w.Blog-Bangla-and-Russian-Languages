@@ -4,8 +4,15 @@ class ControllerCommonCheckout extends Controller {
 //		// Validate cart has products and has stock.
 		if ((!$this->cart->hasProducts() && empty($this->session->data['vouchers'])) || (!$this->cart->hasStock() && !$this->config->get('config_stock_checkout'))) {
 			//return false;
-            $this->response->redirect($this->url->link('common/home'));
-		}
+//            $this->response->redirect($this->url->link('common/home'));
+                $data = array();
+                if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/logged.tpl')) {
+                    $this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/account/logged.tpl', $data));
+                } else {
+                    $this->response->setOutput($this->load->view('default/template/account/logged.tpl', $data));
+                }
+            
+		} else {
 //
 //		// Validate minimum quantity requirements.
 		$products = $this->cart->getProducts();
@@ -19,9 +26,9 @@ class ControllerCommonCheckout extends Controller {
 				}
 			}
 
-			if ($product['minimum'] > $product_total) {
-				$this->response->redirect($this->url->link('common/home'));
-			}
+//			if ($product['minimum'] > $product_total) {
+//				$this->response->redirect($this->url->link('common/home'));
+//			}
 		}
                 
                
@@ -45,24 +52,6 @@ class ControllerCommonCheckout extends Controller {
                 
 		
 
-//		$data['breadcrumbs'] = array();
-//
-//		$data['breadcrumbs'][] = array(
-//			'text' => $this->language->get('text_home'),
-//			'href' => $this->url->link('common/home')
-//		);
-//
-//		$data['breadcrumbs'][] = array(
-//			'text' => $this->language->get('text_cart'),
-//			'href' => $this->url->link('checkout/cart')
-//		);
-//
-//		$data['breadcrumbs'][] = array(
-//			'text' => $this->language->get('heading_title'),
-//			'href' => $this->url->link('checkout/checkout', '', 'SSL')
-//		);
-//                
-//                
 
 		$data['heading_title'] = $this->language->get('heading_title');
 
@@ -94,36 +83,14 @@ class ControllerCommonCheckout extends Controller {
 
 		$data['shipping_required'] = $this->cart->hasShipping();
                 
-                
-
-//		$data['column_left'] = $this->load->controller('common/column_left');
-//		$data['column_right'] = $this->load->controller('common/column_right');
-//		$data['content_top'] = $this->load->controller('common/content_top');
-//		$data['content_bottom'] = $this->load->controller('common/content_bottom');
-//		$data['footer'] = $this->load->controller('common/footer');
-//		$data['header'] = $this->load->controller('common/header');
-//
-//                var_dump($data);
-                
-//		if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/checkout.tpl')) {
-//			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/checkout/checkout.tpl', $data));
-//		} else {
-//			$this->response->setOutput($this->load->view('default/template/checkout/checkout.tpl', $data));
-//		}
-		
-		
-//        if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/checkout.tpl')) {
-//			return $this->load->view($this->config->get('config_template') . '/template/common/checkout.tpl', $data);
-//		} else {
-//			return $this->load->view('default/template/common/checkout.tpl', $data);
-//		}
-        
+                   
         
         if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/common/checkout.tpl')) {
 			$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/common/checkout.tpl', $data));
 		} else {
 			$this->response->setOutput($this->load->view('default/template/common/checkout.tpl', $data));
 		}
+        }
 	}
 
 	public function country() {

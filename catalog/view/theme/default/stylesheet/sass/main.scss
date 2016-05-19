@@ -953,6 +953,8 @@
 					position: absolute;
 					transform: translateY(-50%);
 					left: 0;
+					padding: 5px;
+					background-color: rgba(255,255,255,.7);
 					bottom: 80%;
 					transition: all .3s ease;
 					opacity: 0;
@@ -1233,6 +1235,7 @@
 				display: inline-block;
 			}
 			input[type="text"],
+			input[type="password"],
 			textarea,
 			select{
 				height: 48px;
@@ -2206,6 +2209,29 @@
 
 }
 
+#collapse-checkout-option{
+	.cart-form__form h2{
+		font-size: 20px;
+	}
+	input[type="button"]{
+		background-color: #658123;
+		color: #fff;
+		border: none;
+		padding: 8px 10px;
+		&:hover{
+			background-color: #435812;
+		}
+	}
+	.cart-form__form__input-wrap + p{
+		font-size: 14px;
+	}
+	a{
+		color: #333;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
 
 input.error{
 	border: 1px solid red;
