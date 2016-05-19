@@ -4174,3 +4174,17 @@
 2016-05-19 14:29:58 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 14:29:59 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 14:29:59 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 14:47:38 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 14:47:38 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:29:46 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:29:46 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:32:25 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:32:25 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:33:08 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:33:08 - PHP Notice:  Undefined variable: child in T:\home\eat-delivery\www\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-19 15:33:58 - PHP Notice:  Undefined variable: categor in T:\home\eat-delivery\www\catalog\view\theme\default\template\product\product.tpl on line 47
+2016-05-19 15:33:58 - PHP Notice:  Undefined variable: categor in T:\home\eat-delivery\www\catalog\view\theme\default\template\product\product.tpl on line 48
+2016-05-19 15:33:58 - PHP Notice:  Undefined variable: categor in T:\home\eat-delivery\www\catalog\view\theme\default\template\product\product.tpl on line 48
+2016-05-19 15:33:58 - PHP Notice:  Undefined variable: categor in T:\home\eat-delivery\www\catalog\view\theme\default\template\product\product.tpl on line 54
+2016-05-19 15:33:58 - PHP Notice:  Undefined variable: categor in T:\home\eat-delivery\www\catalog\view\theme\default\template\product\product.tpl on line 55
+2016-05-19 15:33:58 - PHP Warning:  Invalid argument supplied for foreach() in T:\home\eat-delivery\www\catalog\view\theme\default\template\product\product.tpl on line 55
