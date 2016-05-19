@@ -1,21 +1,6 @@
 //$('#preloader').show();
 
-if($(window).innerWidth() > 768 ) {
-	$(window).on('scroll', function(event) {
-		var offsetWindow = $(this).scrollTop() + $(this).height();
-		var offsetInner = offsetWindow - $(".food-menu__content").offset().top;
-		var offsetCon = $(".food-menu__content__product-box-wrap").offset().top + 300;
-		var sepor = $(".food-menu__content").offset().top + $(".food-menu__content").innerHeight();
-		console.log($(".food-menu__content").offset().top);
 
-		if( offsetWindow>offsetCon && offsetWindow<sepor) {
-			$(".food-menu__total").addClass('active').css({"width": $(".food-menu__content").innerWidth() + "px"});
-		} else {
-			$(".food-menu__total").removeClass('active');
-		}
-		
-	});
-} 
 
 
 function call(form) {

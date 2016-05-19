@@ -14,7 +14,7 @@ document.forms["logged"].submit();
 </script>
 <?php } else if($status_user=="logged") { ?>
         <div class="popup-form__header">
-			
+			Здравствуйте, <?php echo $user_name ?>
 		</div>
         <p><a style="color:#373737" href="/index.php?route=account/edit">Изменить контактную информацию</a></p>
         <p><a style="color:#373737" href="/index.php?route=account/password">Изменить свой пароль</a></p>

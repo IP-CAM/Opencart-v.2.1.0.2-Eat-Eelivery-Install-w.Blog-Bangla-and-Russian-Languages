@@ -47,7 +47,8 @@ class ControllerAccountLogin extends Controller {
 //            $this->response->redirect($this->url->link('common/home', '', 'SSL'));
             //return false;
             $data = array(
-                'status_user' => 'logged'
+                'status_user' => 'logged',
+                'user_name' => $this->customer->getFirstName()
             );
             
             if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/account/logged.tpl')) {

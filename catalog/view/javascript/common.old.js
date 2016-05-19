@@ -205,10 +205,10 @@ var cart = {
 				$('.cart > button').button('reset');
 			},
 			success: function(json) {
-                alert('azaza');
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
 					$('.cart > a > div').html(json['total']);
+
 //                    $('.cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
 				}, 100);
 
@@ -241,9 +241,11 @@ var cart = {
 			success: function(json) {
 				// Need to set timeout otherwise it wont update the total
 				setTimeout(function () {
-					$('.cart > a > div').html(json['total']);
+					$('.cart > a > div, .num').html(json['total']);
+					 console.log($(".cart-form__eat-box__total strong").html())
+					$(".tot").html($(".cart-form__eat-box__total strong").html());
 //                    $('.cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-				}, 100);
+				}, 1500);
 
 				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
 					location = 'index.php?route=checkout/cart';
@@ -275,15 +277,20 @@ var cart = {
 				setTimeout(function () {
                     if(json['total']==0){
                         $('.totprod').remove();
+                        $('.num').html("0");
+                        $(".tot").html("0грн");
+                        
                     }else{
-                       $('.cart > a > div, .num').html(json['total']); 
+                       $('.cart > a > div, .num').html(json['total']);
+                       $(".tot").html($(".cart-form__eat-box__total strong").html());
+                       
                     }
                     
                     
                     
                     
 					//$('.cart > button').html('<span id="cart-total"><i class="fa fa-shopping-cart"></i> ' + json['total'] + '</span>');
-				}, 100);
+				}, 1500);
 
 				if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
 					location = 'index.php?route=checkout/cart';
@@ -677,6 +684,37 @@ $(document).delegate('.agree', 'click', function(e) {
 		});
 	}
     
-    
+    $(document).ready(function() {
+    	var setParamsOnReady = function(key, quantity) {
+			$.ajax({
+				url: 'index.php?route=checkout/cart/edit2',
+				type: 'post',
+	            data: 'key=' + key + '&quantity=' + quantity,
+				dataType: 'json',
+				success: function(json) {
+					// Need to set timeout otherwise it wont update the total
+					setTimeout(function () {
+						$('.cart > a > div, .num').html(json['total']); 
+						$(".tot").html($(".cart-form__eat-box__total strong").html());
+					}, 100);
+
+					if (getURLVar('route') == 'checkout/cart' || getURLVar('route') == 'checkout/checkout') {
+						location = 'index.php?route=checkout/cart';
+					} else {
+	//					$('.cart > ul').load('index.php?route=common/cart/info ul li');
+	                    				
+	                    $('.cart > .cart-form--your-choose').load('index.php?route=common/cart/info .cart-form--your-choose .cart-form--parent');
+					}
+				},
+		        error: function(xhr, ajaxOptions, thrownError) {
+		            alert(thrownError + "\r\n" + xhr.statusText + "\r\n" + xhr.responseText);
+		        }
+			});
+		}();
+
+
+
+    	
+    });
     
 })(window.jQuery);
