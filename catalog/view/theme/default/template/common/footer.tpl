@@ -20,20 +20,25 @@
 							<div class="footer__contacts__bottom">
 								<ul class="footer__contacts__menu">
 									
-									<li><a href="#">г. Днепропетровск<br/>пр. Гагарина 103 а</a></li>
+									<li><a href="/index.php?route=information/information&information_id=7">г. Днепропетровск<br/>пр. Гагарина 103 а</a></li>
 									<li>
 										<ul>
-											<li><a href="#">(067) 568-35-35</a></li>
+											<li><a href="tel:+380675683535">(067) 568-35-35</a></li>
 											
 										</ul>
 									</li>
 								</ul>
 								<ul class="footer__contacts__menu">
-									<li><a href="#">О нас</a></li>
-									<li><a href="#">Меню</a></li>
-									<li><a href="#">Как заказать</a></li>
-									<li><a href="#">Акции и скидки</a></li>
-									<li><a href="#">Лицензия</a></li>
+                                    <?php foreach ($categories as $category) { ?>
+                                                               
+                                        <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+                                    
+                                   
+                                    
+                                
+                                    <?php } ?>
+                                    
+
 								</ul>
 								<ul class="footer__contacts__socials">
 									<div>Мы в социальных сетях:</div>
@@ -44,7 +49,7 @@
 								</ul>
 							</div>
 						</div>
-						<div class="garnet">Дизайн и разработка <a href="#">Garnet Software</a></div>
+						<div class="garnet">Дизайн и разработка <a href="http://garnet-soft.com/">Garnet Software</a></div>
 					</div>
 				</div>
 			</div>
