@@ -58,7 +58,9 @@ class ControllerAccountForgotten extends Controller {
 				$this->model_account_activity->addActivity('forgotten', $activity_data);
 			}
 
-			$this->response->redirect($this->url->link('account/login', '', 'SSL'));
+//			$this->response->redirect($this->url->link('account/login', '', 'SSL'));
+            $this->response->redirect($this->url->link('common/home', '', 'SSL'));
+            
 		}
 
 		$data['breadcrumbs'] = array();
@@ -96,7 +98,8 @@ class ControllerAccountForgotten extends Controller {
 
 		$data['action'] = $this->url->link('account/forgotten', '', 'SSL');
 
-		$data['back'] = $this->url->link('account/login', '', 'SSL');
+//		$data['back'] = $this->url->link('account/login', '', 'SSL');
+        $data['back'] = $this->url->link('common/home', '', 'SSL');
 
 		$data['column_left'] = $this->load->controller('common/column_left');
 		$data['column_right'] = $this->load->controller('common/column_right');
