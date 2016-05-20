@@ -33,10 +33,6 @@ a {
     text-decoration: none;
     outline: none; }
 
-.added:after {
-  bottom: 105%;
-  opacity: 1; }
-
 #preloader {
   color: red;
   display: flex;
