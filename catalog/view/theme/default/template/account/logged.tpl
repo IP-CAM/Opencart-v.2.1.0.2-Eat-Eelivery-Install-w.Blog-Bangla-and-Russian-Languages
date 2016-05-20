@@ -15,7 +15,7 @@ document.forms["logged"].submit();
         <p><a style="color:#373737" href="/index.php?route=account/address">Изменить мои адреса</a></p>
         <div class="popup-form__submit-wrap">
 			<!--<input type="submit" value="Выйти">-->
-            <a href="/index.php?route=account/logout">Выйти</a>
+            <a class="new-btn" href="/index.php?route=account/logout">Выйти</a>
 		</div>
 <?php } ?>
 

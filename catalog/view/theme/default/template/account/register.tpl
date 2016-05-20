@@ -58,7 +58,7 @@
 				<input type="submit" value="Регистрация" onclick="account.reg()">
 			</div>
 			<div class="popup-form__submit-wrap">
-				<a class="open-popup" href=".login-form">Авторизация</a>
+				<a class="open-popup new-btn" href=".login-form">Авторизация</a>
 			</div>
 
 
