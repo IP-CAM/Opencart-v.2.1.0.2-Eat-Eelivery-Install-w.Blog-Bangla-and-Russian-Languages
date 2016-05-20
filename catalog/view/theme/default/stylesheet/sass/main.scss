@@ -146,6 +146,23 @@
 			background-color: #658123;
 			color: #fff !important;
 		}
+		&.new-btn{
+			border: 0;
+		    display: inline-block;
+		    color: #333;
+		    font-weight: bold;
+		    width: 196px;
+		    padding: 10px;
+		    background-color: #fdfafa;
+		    box-shadow: 0 1px 3.8px 0.2px rgba(1, 1, 1, 0.26);
+		    bottom: 0;
+		    position: relative;
+		    transition: all .2s ease-out;
+		    &:hover{
+				background-color: #eee;
+				color: #333 !important;
+			}
+		}
 	}
 }
 .reg-form .popup-form__header{
@@ -280,6 +297,9 @@
 				top: 4px;
 				box-shadow: 0px 0px 2px rgba(0,0,0,.4);
 				background-color: #8f1f25;
+				text-decoration: none;
+				color: #fff;
+
 			}
 		}
 	}
@@ -520,6 +540,7 @@
 				text-transform: uppercase;
 				align-items: center;
 				line-height: 23px;
+				position: relative;
 				&:hover{
 					background-color: #729325;
 				}
@@ -527,6 +548,7 @@
 		}
 		&__counter{
 			margin-top: 0 !important;
+			position: relative;
 			input{
 				border: none !important;
 			}
@@ -1466,6 +1488,9 @@
 			    	margin: 0px 4px;
 			    	padding: 3px;
 			    }
+			}
+			a{
+				position: relative;
 			}
 		}
 	}

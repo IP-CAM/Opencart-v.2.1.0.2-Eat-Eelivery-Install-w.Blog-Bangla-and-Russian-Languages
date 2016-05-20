@@ -27,15 +27,17 @@
         <input type="text" name="firstname" value="" placeholder="<?php echo $entry_firstname; ?>" id="input-payment-firstname" />
       </div>
       
-      <div class="cart-form__form__input-wrap">
-        <input type="text" name="email" value="" placeholder="<?php echo $entry_email; ?>" id="input-payment-email" />
-      </div>
+    
       <div class="cart-form__form__input-wrap">
         <input type="text" name="telephone" value="" placeholder="<?php echo $entry_telephone; ?>" id="input-payment-telephone" />
       </div>
       
       <div class="cart-form__form__input-wrap">
         <input type="text" name="address_1" value="" placeholder="<?php echo $entry_address_1; ?>" id="input-payment-address-1" />
+      </div>
+      
+      <div class="cart-form__form__input-wrap">
+        <input type="text" name="email" value="" placeholder="<?php echo $entry_email; ?>" id="input-payment-email" />
       </div>
       
       <?php if(false){ ?>
