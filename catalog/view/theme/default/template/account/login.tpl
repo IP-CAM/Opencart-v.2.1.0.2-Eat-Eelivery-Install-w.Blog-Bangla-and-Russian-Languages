@@ -36,5 +36,16 @@
 				<input type="submit" value="Войти" onclick="account.authentication()">
 			</div>
             <div class="popup-form__submit-wrap">
-				<a class="open-popup" href=".reg-form" onclick="account.register()">Регистрация</a>
+				<a class="open-popup new-btn" href=".reg-form" onclick="account.register()">Регистрация</a>
 			</div>
+
+
+<script>
+$(document).ready(function() {
+$('.open-popup, .button__contact-us').magnificPopup({
+stype:'inline',
+midClick: true,
+showCloseBtn: false
+});
+})
+</script>

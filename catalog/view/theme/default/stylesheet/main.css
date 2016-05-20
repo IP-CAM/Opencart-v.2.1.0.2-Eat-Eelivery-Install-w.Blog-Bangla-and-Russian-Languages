@@ -26,8 +26,9 @@
 a {
   text-decoration: none;
   outline: none;
-  transition: all .2s ease-out; }
-  a:hover, a:visited, a:active, a:focus {
+  transition: all .2s ease-out;
+  color: #fff; }
+  a:hover, a:active, a:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
@@ -484,6 +485,24 @@ a {
       position: relative; }
       .food-menu__single-product__order a:hover {
         background-color: #729325; }
+      .food-menu__single-product__order a:after {
+        content: "Товар добавлен";
+        font-weight: bold;
+        text-align: center;
+        font-family: "cocon-regular";
+        font-size: 17px;
+        color: green;
+        position: absolute;
+        transform: translateY(-50%);
+        left: 0;
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        bottom: 80%;
+        transition: all .3s ease;
+        opacity: 0; }
+      .food-menu__single-product__order a.added:after {
+        bottom: 83%;
+        opacity: 1; }
   .food-menu__single-product__counter {
     margin-top: 0 !important;
     position: relative; }
@@ -1854,14 +1873,14 @@ a {
     align-items: center; }
     .edit-pages__buttons__next, .edit-pages__buttons__prev {
       font-size: 20px;
-      color: #242424;
+      color: #242424 !important;
       border: 1px solid #658123;
       display: inline-block;
       border-radius: 6px;
       padding: 7px 17px; }
       .edit-pages__buttons__next:hover, .edit-pages__buttons__prev:hover {
         background-color: #658123;
-        color: #fff; }
+        color: #fff !important; }
 
 #collapse-checkout-option .cart-form__form h2 {
   font-size: 20px; }

@@ -688,7 +688,7 @@ $(document).delegate('.agree', 'click', function(e) {
 	}
     
     $(document).ready(function() {
-    	$(".food-menu__content__add-to-cart a, .food-menu__single-product__counter a").click(function(event) {
+    	$(".food-menu__content__add-to-cart a, .noclick").click(function(event) {
     		var self = $(this);
     		self.addClass('added');
     		setTimeout(function(){

@@ -58,7 +58,7 @@
 				<input type="submit" value="Регистрация" onclick="account.reg()">
 			</div>
 			<div class="popup-form__submit-wrap">
-				<a class="open-popup" href=".login-form">Авторизация</a>
+				<a class="open-popup new-btn" href=".login-form">Авторизация</a>
 			</div>
 
 
@@ -234,3 +234,13 @@ $('select[name=\'country_id\']').on('change', function() {
 
 $('select[name=\'country_id\']').trigger('change');
 //--></script>
+
+<script>
+$(document).ready(function() {
+$('.open-popup, .button__contact-us').magnificPopup({
+stype:'inline',
+midClick: true,
+showCloseBtn: false
+});
+})
+</script>
