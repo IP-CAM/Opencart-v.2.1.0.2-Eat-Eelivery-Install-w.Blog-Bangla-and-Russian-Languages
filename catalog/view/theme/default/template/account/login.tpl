@@ -24,12 +24,17 @@
                         <input type="password" placeholder="Введите пароль" name="password" value="<?php echo $password; ?>" id="input-password" />
                         <a style='color:#373737' href="<?php echo $forgotten; ?>"><?php echo $text_forgotten; ?></a></div>
 					</div>
-				
+			
 					
 					
 				
-				</div>
+				
     </form>
                     
 
-            
+            <div class="popup-form__submit-wrap">
+				<input type="submit" value="Войти" onclick="account.authentication()">
+			</div>
+            <div class="popup-form__submit-wrap">
+				<a class="open-popup" href=".reg-form" onclick="account.register()">Регистрация</a>
+			</div>
