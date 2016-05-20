@@ -24,7 +24,6 @@
   src: url("../fonts/Cocon_Regular.woff") format("woff"); }
 
 a {
-  color: #fff;
   text-decoration: none;
   outline: none;
   transition: all .2s ease-out; }
