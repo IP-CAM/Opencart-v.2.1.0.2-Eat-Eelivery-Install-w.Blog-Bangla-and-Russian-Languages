@@ -3,14 +3,10 @@ a{
 	text-decoration: none;
 	outline: none;
 	transition: all .2s ease-out;
-	&:hover{
+	&:hover,&:visited,&:active,&:focus{
 		color: #fff;
 		text-decoration: none;
 		outline: none;
 	}
 }
 
-.added:after{
-	bottom: 105%;
-	opacity: 1;
-}

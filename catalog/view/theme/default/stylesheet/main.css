@@ -28,14 +28,10 @@ a {
   text-decoration: none;
   outline: none;
   transition: all .2s ease-out; }
-  a:hover {
+  a:hover, a:visited, a:active, a:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
-
-.added:after {
-  bottom: 105%;
-  opacity: 1; }
 
 #preloader {
   color: red;
@@ -154,6 +150,21 @@ a {
   #login-form a:hover {
     background-color: #658123;
     color: #fff !important; }
+  #login-form a.new-btn {
+    border: 0;
+    display: inline-block;
+    color: #333;
+    font-weight: bold;
+    width: 196px;
+    padding: 10px;
+    background-color: #fdfafa;
+    box-shadow: 0 1px 3.8px 0.2px rgba(1, 1, 1, 0.26);
+    bottom: 0;
+    position: relative;
+    transition: all .2s ease-out; }
+    #login-form a.new-btn:hover {
+      background-color: #eee;
+      color: #333 !important; }
 
 .reg-form .popup-form__header {
   line-height: 18px;
@@ -272,7 +283,9 @@ a {
       .header-wrapper__nav__link:hover, .header-wrapper__nav__link:active, .header-wrapper__nav__link:focus, .header-wrapper__nav__link.active {
         top: 4px;
         box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
-        background-color: #8f1f25; }
+        background-color: #8f1f25;
+        text-decoration: none;
+        color: #fff; }
   .header-wrapper__nav-mob {
     background-color: rgba(0, 0, 0, 0.9);
     width: 100%;
@@ -468,11 +481,13 @@ a {
       font-size: 15px;
       text-transform: uppercase;
       align-items: center;
-      line-height: 23px; }
+      line-height: 23px;
+      position: relative; }
       .food-menu__single-product__order a:hover {
         background-color: #729325; }
   .food-menu__single-product__counter {
-    margin-top: 0 !important; }
+    margin-top: 0 !important;
+    position: relative; }
     .food-menu__single-product__counter input {
       border: none !important; }
   .food-menu__single-product__descr {
@@ -1245,6 +1260,8 @@ a {
         text-align: center;
         margin: 0px 4px;
         padding: 3px; }
+      .cart-form__eat-box__counter a {
+        position: relative; }
   .cart-form__table {
     width: 100%; }
     .cart-form__table__header {
