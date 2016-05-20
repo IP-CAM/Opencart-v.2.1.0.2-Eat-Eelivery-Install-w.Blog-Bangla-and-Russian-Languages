@@ -3,6 +3,9 @@
 					Заполните, пожалуйста, регистрационную форму
 				</div>
 				<div class="popup-form__body">
+                    <?php if ($error_warning) { ?>
+                    <div class="alert alert-danger"><i class="fa fa-exclamation-circle"></i> <?php echo $error_warning; ?></div>
+                    <?php } ?>
 					<div class="popup-form__input-wrap">
 						<!--<input type="text" placeholder="Введите имя" required>-->
                         <input type="text" name="firstname" value="<?php echo $firstname; ?>" placeholder="Введите имя" id="input-firstname" />
@@ -10,13 +13,7 @@
                         <div class="text-danger"><?php echo $error_firstname; ?></div>
                         <?php } ?>
 					</div>
-					<div class="popup-form__input-wrap">
-						<!--<input type="text" placeholder="Введите E-mail" required>-->
-                        <input type="email" name="email" value="<?php echo $email; ?>" placeholder="Введите E-mail" id="input-email" />
-                        <?php if ($error_email) { ?>
-                        <div class="text-danger"><?php echo $error_email; ?></div>
-                        <?php } ?>
-					</div>
+					
 					<div class="popup-form__input-wrap">
 						<!--<input type="text" placeholder="Введите номер телефона" required>-->
                         <input type="tel" name="telephone" value="<?php echo $telephone; ?>" placeholder="Введите номер телефона" id="input-telephone" />
@@ -29,6 +26,13 @@
                         <input type="text" name="address_1" value="<?php echo $address_1; ?>" placeholder="Введите адрес" id="input-address-1" />
                         <?php if ($error_address_1) { ?>
                         <div class="text-danger"><?php echo $error_address_1; ?></div>
+                        <?php } ?>
+					</div>
+                    <div class="popup-form__input-wrap">
+						<!--<input type="text" placeholder="Введите E-mail" required>-->
+                        <input type="email" name="email" value="<?php echo $email; ?>" placeholder="Введите E-mail" id="input-email" />
+                        <?php if ($error_email) { ?>
+                        <div class="text-danger"><?php echo $error_email; ?></div>
                         <?php } ?>
 					</div>
 					<div class="popup-form__input-wrap">

@@ -4254,3 +4254,37 @@
 2016-05-19 16:58:00 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 17:08:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
 2016-05-19 17:08:34 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:14:09 - PHP Warning:  unlink(C:/OpenServer/domains/obed2.com.ua/system/storage/cache/cache.currency.1463669497): No such file or directory in C:\OpenServer\domains\obed2.com.ua\system\library\cache\file.php on line 17
+2016-05-20 10:14:49 - PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at C:\OpenServer\domains\obed2.com.ua\index.php:98) in C:\OpenServer\domains\obed2.com.ua\system\library\session.php on line 21
+2016-05-20 10:14:59 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:14:59 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:17:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:17:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:28:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:28:09 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:37:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:37:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:38:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:38:49 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:39:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:39:08 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:39:40 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:39:40 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:43:45 - PHP Notice:  Error: E-Mail to required! in C:\OpenServer\domains\obed2.com.ua\system\library\mail.php on line 61
+2016-05-20 10:43:50 - PHP Notice:  Undefined index: payment_method in C:\OpenServer\domains\obed2.com.ua\catalog\controller\payment\cod.php on line 18
+2016-05-20 10:44:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:44:04 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:45:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:45:23 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:47:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:47:03 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:47:24 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:47:24 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:48:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:48:14 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:48:47 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:48:47 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:49:07 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:49:07 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:52:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
+2016-05-20 10:52:46 - PHP Notice:  Undefined variable: child in C:\OpenServer\domains\obed2.com.ua\catalog\view\theme\default\template\common\home.tpl on line 101
